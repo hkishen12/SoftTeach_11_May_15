@@ -1,0 +1,138 @@
+<suite name="Assessments Test Cases" >
+
+<test name="Check Runmode of Suite">
+    <classes>
+      <class name="com.SuiteAssessments.TestSuiteBase"></class> 
+    </classes>
+</test>
+
+
+<test name="New Assessment Custom Notice">
+   <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_NewAssessmentCustomNotice"></class>
+    </classes>
+</test>
+
+<test name="New Assessment Notice Template">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_NewAssessmentNoticeTemplate"></class>
+    </classes>
+</test>
+
+
+<test name="New Assessment Add Questions">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_NewAssessmentAddQuestions"></class>
+    </classes>
+</test>
+
+
+
+<test name="Most Recent Revised Assessment">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_MostReceRevisedAssessment"></class>
+    </classes>
+</test>
+
+
+<test name="New Assessment Saveas Draft">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_NewAssessmentsaveasDraft"></class>
+    </classes>
+</test>
+
+
+<test name="Edit Assessment Export Print">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_EditAssessmentExportPrint"></class>
+    </classes>
+</test>
+
+
+<test name="Edit Assessment Preview ">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_EditAssessmentPreview"></class>
+    </classes>
+</test>
+
+<test name="Post Assessment ">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_PostAssessment"></class>
+    </classes>
+</test>
+
+<test name="Post Assessment Preview ">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_PostAssessmentPreview"></class>
+    </classes>
+</test>
+
+<test name="multiple post">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_multiplepost"></class>
+    </classes>
+</test>
+
+<test name="Unpostposting">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_Unpostposting"></class>
+    </classes>
+</test>
+
+<test name="Duplicate posting">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_Duplicateposting"></class>
+    </classes>
+</test>
+
+<test name="Retire posting">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_Retireposting"></class>
+    </classes>
+</test>
+
+<test name="Create New folder">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_NewAssessmentfolder"></class>
+    </classes>
+</test>
+
+<test name="Edit created assessment folder">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_EditAssessmentfolder"></class>
+    </classes>
+</test>
+
+<test name="Share created assessment folder">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_ShareAssessmentfolder"></class>
+    </classes>
+</test>
+
+
+<test name="Delete Created folder">
+    <classes>
+     
+         <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder"></class>
+    </classes>
+</test>
+
+
+</suite>
+

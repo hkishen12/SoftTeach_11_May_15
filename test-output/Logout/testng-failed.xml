@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Logout]">
+  <test name="Logout Test Case(failed)">
+    <classes>
+      <class name="com.suiteLogout.TestCase_Logout">
+        <methods>
+          <include name="LogOutTest"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.suiteLogout.TestCase_Logout -->
+      <class name="com.suiteLogout.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteLogout.TestSuiteBase -->
+    </classes>
+  </test> <!-- Logout Test Case(failed) -->
+</suite> <!-- Failed suite [Logout] -->

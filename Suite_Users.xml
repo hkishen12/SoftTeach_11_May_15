@@ -1,0 +1,53 @@
+<suite name="Users Test Cases">
+
+	<test name="Check Runmode of Suite">
+		<classes>
+			<class name="com.suiteUsers.TestSuiteBase"></class>
+		</classes>
+	</test>
+
+
+	<test name="Create New User">
+		<classes>
+
+			<class name="com.suiteUsers.TestCase_CreateUser"></class>
+		</classes>
+	</test>
+	
+	<test name="Create a Restricted User">
+		<classes>
+
+			<class name="com.suiteUsers.TestCase_CreateRestrictedUser"></class>
+		</classes>
+	</test>
+	
+	<test name="Check Include grader only account search">
+		<classes>
+
+			<class name="com.suiteUsers.TestCase_IncludeGraderOnlyAccountsCheck"></class>
+		</classes>
+	</test>
+
+	<test name="Email a User">
+		<classes>
+
+			<class name="com.suiteUsers.TestCase_EmailUser"></class>
+		</classes>
+	</test>
+	
+	<test name="Edit a User">
+		<classes>
+
+			<class name="com.suiteUsers.TestCase_EditUser"></class>
+		</classes>
+	</test>
+	
+	<test name="Delete a User">
+		<classes>
+
+			<class name="com.suiteUsers.TestCase_DeleteUser"></class>
+		</classes>
+	</test>
+
+</suite>
+

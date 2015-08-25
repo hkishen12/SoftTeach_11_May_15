@@ -1,0 +1,210 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [ExamTaker]">
+  <test name="ExamTaker-CreateExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_CreateExamTaker">
+        <methods>
+          <include name="CreateNewET"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_CreateExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-CreateExamTaker(failed) -->
+  <test name="ExamTaker-CancelCreateExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_CancelCreateExamTaker">
+        <methods>
+          <include name="CancelCreateNewET"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_CancelCreateExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-CancelCreateExamTaker(failed) -->
+  <test name="ExamTaker-VerifyErrorMsg1_CreateExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg1_CreateExamTaker">
+        <methods>
+          <include name="CreateNewETwithoutFname"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg1_CreateExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-VerifyErrorMsg1_CreateExamTaker(failed) -->
+  <test name="ExamTaker-VerifyErrorMsg2_CreateExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg2_CreateExamTaker">
+        <methods>
+          <include name="CreateNewETwithoutName"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg2_CreateExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-VerifyErrorMsg2_CreateExamTaker(failed) -->
+  <test name="ExamTaker-VerifyErrorMsg3_CreateExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg3_CreateExamTaker">
+        <methods>
+          <include name="CreateNewETwithoutStudentID"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg3_CreateExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-VerifyErrorMsg3_CreateExamTaker(failed) -->
+  <test name="ExamTaker-VerifyErrorMsg4_CreateExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg4_CreateExamTaker">
+        <methods>
+          <include name="CreateNewETwithoutEmailID"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg4_CreateExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-VerifyErrorMsg4_CreateExamTaker(failed) -->
+  <test name="ExamTaker-VerifyErrorMsg5_CreateExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg5_CreateExamTaker">
+        <methods>
+          <include name="CreateNewETwithoutAnyField"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg5_CreateExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-VerifyErrorMsg5_CreateExamTaker(failed) -->
+  <test name="ExamTaker-SearchExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_SearchExamTaker">
+        <methods>
+          <include name="SearchET"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_SearchExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-SearchExamTaker(failed) -->
+  <test name="ExamTaker-EditExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_EditExamTaker">
+        <methods>
+          <include name="EditET"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_EditExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-EditExamTaker(failed) -->
+  <test name="ExamTaker-EmailExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_EmailExamTaker">
+        <methods>
+          <include name="EmailET"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_EmailExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-EmailExamTaker(failed) -->
+  <test name="ExamTaker-DeleteExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_DeleteExamTaker">
+        <methods>
+          <include name="DeleteET"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_DeleteExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-DeleteExamTaker(failed) -->
+  <test name="ExamTaker-ExamTakerHistory(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_ExamTakerHistory">
+        <methods>
+          <include name="ETHistory"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_ExamTakerHistory -->
+    </classes>
+  </test> <!-- ExamTaker-ExamTakerHistory(failed) -->
+  <test name="ExamTaker-BULKDeleteExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_BULKDeleteExamTaker">
+        <methods>
+          <include name="BULKDeleteET"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_BULKDeleteExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-BULKDeleteExamTaker(failed) -->
+  <test name="ExamTaker-BULKEditExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+      <class name="com.SuiteExamTaker.TestCase_BULKEditExamTaker">
+        <methods>
+          <include name="BULKEditET"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_BULKEditExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-BULKEditExamTaker(failed) -->
+  <test name="ExamTaker-AdvanceSearchExamTaker(failed)">
+    <classes>
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <methods>
+          <include name="AdvanceSearchET"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+    </classes>
+  </test> <!-- ExamTaker-AdvanceSearchExamTaker(failed) -->
+</suite> <!-- Failed suite [ExamTaker] -->

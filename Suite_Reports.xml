@@ -1,0 +1,57 @@
+
+<suite name="Reports Settings">
+	<test name="Check Runmode of Suite">
+		<classes>
+
+			<class name="com.SuiteReports.TestSuiteBase"></class>
+		</classes>
+	</test>
+
+	
+	<test name="CheckETResults">
+		<classes>
+
+			<class name="com.SuiteReports.TestCase_CheckETResults"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="CheckSummaryReports">
+		<classes>
+
+			<class name="com.SuiteReports.TestCase_CheckSummaryReport"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="CheckReleaseETResults">
+		<classes>
+
+			<class name="com.SuiteReports.TestCase_CheckReleaseETResults"></class>
+		</classes>
+	</test>
+	
+	<test name="CheckReleaseETResultsSendEmail">
+		<classes>
+
+			<class name="com.SuiteReports.TestCase_CheckReleaseETResults_PostEmail"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="SandOReports">
+		<classes>
+
+			<class name="com.SuiteReports.TestCase_CheckSandOReports"></class>
+		</classes>
+	</test>
+	
+	<test name="CategoryReports">
+		<classes>
+
+			<class name="com.SuiteReports.TestCase_CheckCategoryReports"></class>
+		</classes>
+	</test>
+	
+	
+</suite>

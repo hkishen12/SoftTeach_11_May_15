@@ -1,0 +1,648 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Softeach>
+
+
+
+	<!-- Login Suite -->
+	<TestSuite name="LoginSuite" runmode="Y">
+
+		<TestCase name="TestCase_ETLostUserIDPassword" runmode="Y">
+			<Description>Check ET Lost ID and Password Link</Description>
+		</TestCase>
+		<TestCase name="TestCase_Login" runmode="Y">
+			<Description>Login to the application using admin credential
+			</Description>
+		</TestCase>
+
+	</TestSuite>
+
+
+
+
+	<!-- Common Suite -->
+	<TestSuite name="CommonSuite" runmode="Y">
+
+		<TestCase name="TestCase_CheckQuestions" runmode="Y">
+			<Description>Check "Questions" link is appearing</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckRubrics" runmode="Y">
+			<Description>Check "Rubrics" link is appearing</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckAssessments" runmode="Y">
+			<Description>Check "Assessments" link is appearing</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckCategories" runmode="Y">
+			<Description>Check "Categories" link is appearing</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckReports" runmode="Y">
+			<Description>Check "Reports" link is appearing</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckExamTakers" runmode="Y">
+			<Description>Check "ExamTakers" link is appearing</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckAdmin" runmode="Y">
+			<Description>Check "Admin" link is appearing</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckCommunity" runmode="Y">
+			<Description>Check "Community" link is appearing</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckTrainingVideo" runmode="Y">
+			<Description>Check "TrainingVideo" link is appearing</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckExamsoftUniversity" runmode="Y">
+			<Description>Check "ExamsoftUniversity" link is appearing
+			</Description>
+		</TestCase>
+
+	</TestSuite>
+
+
+
+
+	<!-- Assessments Suite -->
+	<TestSuite name="AssessmentsSuite" runmode="Y">
+
+		<TestCase name="TestCase_NewAssessmentCustomNotice" runmode="Y">
+			<Description>Create a new assessment - select folder - custom notice
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_NewAssessmentNoticeTemplate"
+			runmode="Y">
+			<Description>TestCase_NewAssessmentNoticeTemplate </Description>
+		</TestCase>
+
+		<TestCase name="TestCase_NewAssessmentAddQuestions" runmode="Y">
+			<Description>Create a new assessment - select folder -Add Questions
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckCreatedAssessment" runmode="Y">
+			<Description>1.Create a new assessment.
+				2.Click on any of the
+				assessment folder.
+				3.Created assessments inside the folder should
+				appear at the right side pane
+				4.Delete created assessments
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_MostReceRevisedAssessment" runmode="Y">
+			<Description>1.Create a new assessment select folder -Add Questions
+				2.Go to "Advanced Search" and verfiy "Most Recently Revised
+				Assessments"
+				3. Newly created assessment should be available in the
+				folder and
+				should be in Draft State
+				4.Delete created assessments
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_NewAssessmentsaveasDraft" runmode="Y">
+			<Description>1.Create a new assessment.
+				2.Click on any of the
+				assessment folder.
+				3.Created assessments inside the folder should
+				appear at the right side pane
+				4.Delete created assessments
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EditAssessmentExportPrint" runmode="Y">
+			<Description>1.Open assessment in edit link
+				2.Check user can
+				export/print assessment
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ExportExamFromViewAssessment"
+			runmode="Y">
+			<Description>1.Open assessment in edit link
+				2.Click the export/print
+				assessment option
+				3.user should be able to export exam from view
+				assessment screen
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EditAssessmentPreview" runmode="Y">
+			<Description>Check ʺPreviewʺ from ʺEdit Assessmentʺ page.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_PostAssessment" runmode="Y">
+			<Description>Post above assessment. User should be able to post.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_PostAssessmentPreview" runmode="Y">
+			<Description>1.Post above assessment. User should be able to post.
+				2.Also check user is able to ʺPreviewʺ the posted exam
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_multiplepost" runmode="Y">
+			<Description>Do multiple posting for the same assessment.
+				User should
+				be able to do multiple posting using same assessment
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_Unpostposting" runmode="Y">
+			<Description>Unpost posting from exam which is already posted.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_Duplicateposting" runmode="Y">
+			<Description>Check user should be able to Duplicate assessment.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_Retireposting" runmode="Y">
+			<Description>Check user should be able to Retire assessment.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_NewAssessmentfolder" runmode="Y">
+			<Description>Create a new assessment folder. </Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EditAssessmentfolder" runmode="Y">
+			<Description>TestCase_EditAssessmentfolder</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ShareAssessmentfolder" runmode="Y">
+			<Description>Share created assessment folder.</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DeleteAssessmentfolder" runmode="Y">
+			<Description>Delete created assessment folder.</Description>
+		</TestCase>
+
+	</TestSuite>
+
+
+
+	<!-- Question Suite -->
+	<TestSuite name="QuestionsSuite" runmode="Y">
+
+		<TestCase name="TestCase_CreateQuestionlinks" runmode="Y">
+			<Description>Click on "Questions" tab and check following buttons are
+				present
+				"Crate M/C" , "Create T/F" , "Create Essay" , "Create
+				FITB/Matching" ,
+				"Import Questions"
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DefaultQSbyFolder" runmode="Y">
+			<Description>Check "Questions by Folder" is selected by default when
+				user is on "Questions" tab."
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_SelectAnyFolder" runmode="Y">
+			<Description>Select any of the folders from "Questions by Folder"
+				tab. Right side pane should show the items inside the folder.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_QSbyCategories" runmode="Y">
+			<Description>Select "Questions by Category" tab, list of categories
+				should appear.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateNewCategory" runmode="Y">
+			<Description>Create New Category.</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_SelectCategoryFolder" runmode="Y">
+			<Description>Select any of the categories and from "Questions by
+				Category" tab. Right side pane
+				should show the items related to
+				selected category.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateFolder" runmode="Y">
+			<Description>Create a new question folder. Folder should be created
+				successfully.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateMCQuestions" runmode="Y">
+			<Description>Create 4 kinds of Questions in newly created folder also
+				associate different categories while creating the questions. Also
+				add
+				attachment of different types while creating items. Save those
+				items. Items
+				should be in Draft state.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateEassyQuestions" runmode="Y">
+			<Description>Create Eassy Question.</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateFITBQuestions" runmode="Y">
+			<Description>Create FITB Question.</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateTFQuestions" runmode="Y">
+			<Description>Create True/False Question.</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateAndApproveQuestions" runmode="Y">
+			<Description>Approve one of the newly created items from the edit
+				Questions page.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateBulkApproveQuestions" runmode="Y">
+			<Description>Approve remaining items with bulk approve.</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_SearchQuestionsById" runmode="Y">
+			<Description>Check search using Question ID and Question name
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_SearchQuestionsByName" runmode="Y">
+			<Description>Check search using Question ID and Question name.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ImportQuestionsRFTFormat" runmode="n">
+			<Description>Check user can import questions in RFT</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ImportQuestionsTabSeperated"
+			runmode="n">
+			<Description>Check user can import questions in Tab seperated.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EditFolder" runmode="Y">
+			<Description>a. Edit folder</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DeleteFolder" runmode="Y">
+			<Description>b. Delete Folder</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ShareFolder" runmode="Y">
+			<Description>c. Share folder</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ExportFolder" runmode="Y">
+			<Description>d. Export Questions.</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DeleteQSInFolder" runmode="Y">
+			<Description>Check user should be able to delete a question which is
+				not used
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DeleteQSUsedByExam" runmode="Y">
+			<Description>Check user should not be able to delete Questions which
+				is used by any exam.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_BreadcrumAndHeading" runmode="Y">
+			<Description>Verify Question's page breadcrum and heading.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_FolderAndCategorySearch" runmode="Y">
+			<Description>Check search and reset option under side bar grids.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_FolderQuestionCount_LHS_RHS_Grid"
+			runmode="Y">
+			<Description>Check Folder question count on LHS and RHS grids
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_Community_HelpGuide_Links" runmode="Y">
+			<Description>Verify 'Community' and 'Help Guide' links are appearing
+				and their corresponding popups are opening or not.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ExportResults_Excel_CSV" runmode="Y">
+			<Description>Verify user is able to export grid results to excel and
+				CSV files.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ExpandShrinkResultsLink" runmode="Y">
+			<Description>Verify whether Expand/Shrink Results link is working
+				properly.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_BulkDuplicate" runmode="Y">
+			<Description>Check user is able to duplicate bulk selected questions
+				to a particular folder.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_BulkMoveToAnotherFolder" runmode="Y">
+			<Description>Check user is able to move questions to another folder
+				for bulk selected questions from question listing grid.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_BulkRemoveItems" runmode="Y">
+			<Description>Check user is able to remove bulk selected questions
+				which are not used in any assignments from question listing grid.
+			</Description>
+		</TestCase>
+
+	</TestSuite>
+
+
+
+	<!--Categories Suite -->
+	<TestSuite name="CategoriesSuite" runmode="Y">
+
+		<TestCase name="TestCase_VerifyCategoryTab" runmode="Y">
+			<Description>Click on "Categories" tab, all available categories
+				should appear for which the user has access.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_VerifyCreateCategory" runmode="Y">
+			<Description>Create a new Category. Newly added category should show
+				up in the list.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_VerifyDeleteCategory" runmode="Y">
+			<Description>Delete the Created Category.</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_BreadcrumAndHeading" runmode="Y">
+			<Description>Verify Categories page breadcrum and heading.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ExportResults_Excel_CSV" runmode="Y">
+			<Description>Verify results export to CSV and Excel files
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_FolderAndCategorySearch" runmode="Y">
+			<Description>Check search and reset option under side bar grids.
+			</Description>
+		</TestCase>
+
+	</TestSuite>
+
+
+	<!-- Users Suite -->
+	<TestSuite name="UsersSuite" runmode="Y">
+
+		<TestCase name="TestCase_CreateUser" runmode="Y">
+			<Description>Create a new user</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateRestrictedUser" runmode="Y">
+			<Description>Create a restricted user</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_IncludeGraderOnlyAccountsCheck"
+			runmode="Y">
+			<Description>Check 'Include Grader Only Accounts' checkbox
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EmailUser" runmode="Y">
+			<Description>Email a user</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EditUser" runmode="Y">
+			<Description>Edit user details</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DeleteUser" runmode="Y">
+			<Description>Delete a new user</Description>
+		</TestCase>
+
+	</TestSuite>
+
+	<!-- Course Suite -->
+	<TestSuite name="CoursesSuite" runmode="Y">
+
+		<TestCase name="TestCase_CreateNewCourse" runmode="Y">
+			<Description>Create New Course</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_Edit_Course" runmode="Y">
+			<Description>Edit Course </Description>
+		</TestCase>
+
+		<TestCase name="TestCase_AssignETToCourse" runmode="Y">
+			<Description>Assign ET To Course</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_Search_NewlyCreatedCourse" runmode="Y">
+			<Description>Search Course </Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CourseExport" runmode="Y">
+			<Description>Export Course </Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ExportCourseData" runmode="N">
+			<Description>Export ETs linked to Course </Description>
+		</TestCase>
+
+	</TestSuite>
+
+
+
+	<!-- ExamTaker Suite -->
+	<TestSuite name="ExamTakerSuite" runmode="Y">
+
+		<TestCase name="TestCase_CreateExamTaker" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CancelCreateExamTaker" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_VerifyErrorMsg1_CreateExamTaker"
+			runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_VerifyErrorMsg2_CreateExamTaker"
+			runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_VerifyErrorMsg3_CreateExamTaker"
+			runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_VerifyErrorMsg4_CreateExamTaker"
+			runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_VerifyErrorMsg5_CreateExamTaker"
+			runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_SearchExamTaker" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EditExamTaker" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EmailExamTaker" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DeleteExamTaker" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ExamTakerHistory" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_BULKDeleteExamTaker" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_BULKEditExamTaker" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+		<TestCase name="TestCase_AdvanceSearchExamTaker" runmode="Y">
+			<Description></Description>
+		</TestCase>
+
+
+	</TestSuite>
+
+	<!-- Rubrics Suite -->
+	<TestSuite name="RubricsSuite" runmode="Y">
+
+		<TestCase name="TestCase_CreateNewRubricsFolder" runmode="Y">
+			<Description>Creating New Rubrics folder from LHS grid by clicking on
+				New Folder option under cog wheel.
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreatePointBasedRubric" runmode="Y">
+			<Description>Create a point based rubric</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CreateScaleBasedRubric" runmode="Y">
+			<Description>Create a scale based rubric</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_SaveAsRubricTemplate" runmode="Y">
+			<Description>Save Rubric as a template</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_SaveTemplateAsRubric" runmode="Y">
+			<Description>Save template as a Rubric</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_AddDimensionAndLevel" runmode="Y">
+			<Description>Add a Rubric dimension and level</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DeleteDimensionAndLevel" runmode="Y">
+			<Description>Delete a Rubric dimension and level</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EditRubric" runmode="Y">
+			<Description>Edit Rubric rows, columns, points, categories and folder
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DeleteRubric" runmode="Y">
+			<Description>Delete a Rubric</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_ShareRubricsFolder" runmode="Y">
+			<Description>Share Rubric Folder</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_EditRubricFolder" runmode="Y">
+			<Description>Edit Rubric Folder</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_DeleteRubricFolder" runmode="Y">
+			<Description>Delete Rubric Folder</Description>
+		</TestCase>
+
+	</TestSuite>
+
+
+<!-- Reports Suite -->
+	<TestSuite name="ReportsSuite" runmode="Y">
+
+		<TestCase name="TestCase_CheckETResults" runmode="Y">
+			<Description>Check ET Results
+			</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckSummaryReport" runmode="Y">
+			<Description>Check Summary Report</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckReleaseETResults" runmode="Y">
+			<Description>Check Release Results</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckSandOReports" runmode="Y">
+			<Description>Check SandO Reports</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckCategoryReports" runmode="Y">
+			<Description>Check Category Reports</Description>
+		</TestCase>
+
+		<TestCase name="TestCase_CheckReleaseETResults_PostEmail" runmode="Y">
+			<Description>Check Release Results by Post Email</Description>
+		</TestCase>
+	</TestSuite>
+
+
+	<!-- Logout Suite -->
+	<TestSuite name="LogoutSuite" runmode="Y">
+
+		<TestCase name="TestCase_Logout" runmode="Y">
+			<Description>For Logout</Description>
+		</TestCase>
+
+	</TestSuite>
+
+
+
+
+</Softeach>

@@ -1,0 +1,2330 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="108" failed="0" total="115" passed="7">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Login" duration-ms="27284" started-at="2015-08-19T10:28:57Z" finished-at="2015-08-19T10:29:24Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="5" started-at="2015-08-19T10:28:57Z" finished-at="2015-08-19T10:28:57Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="ET Lost Username and Password" duration-ms="6" started-at="2015-08-19T10:28:57Z" finished-at="2015-08-19T10:28:57Z">
+      <class name="com.suiteLogin.TestCase_ETLostUserIDPassword">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteLogin.TestCase_ETLostUserIDPassword@17e581f9]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:58:57Z" finished-at="2015-08-19T15:58:57Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'TestCase_ETLostUserIDPassword' is set to 'NO', hence Skipping it!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'TestCase_ETLostUserIDPassword' is set to 'NO', hence Skipping it!
+	at Util.TestUtil.checkTestSkip(TestUtil.java:157)
+	at com.suiteLogin.TestCase_ETLostUserIDPassword.checkTestSkip(TestCase_ETLostUserIDPassword.java:20)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.TestRunner.beforeRun(TestRunner.java:641)
+	at org.testng.TestRunner.run(TestRunner.java:609)
+	at org.testng.SuiteRunner.runTest(SuiteRunner.java:334)
+	at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:329)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:291)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteLogin.TestCase_ETLostUserIDPassword@17e581f9]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:58:57Z" finished-at="2015-08-19T15:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="TestCaseETLostUserIDPassword()[pri:0, instance:com.suiteLogin.TestCase_ETLostUserIDPassword@17e581f9]" name="TestCaseETLostUserIDPassword" duration-ms="0" started-at="2015-08-19T15:58:57Z" finished-at="2015-08-19T15:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseETLostUserIDPassword -->
+      </class> <!-- com.suiteLogin.TestCase_ETLostUserIDPassword -->
+    </test> <!-- ET Lost Username and Password -->
+    <test name="Login Test Case" duration-ms="27252" started-at="2015-08-19T10:28:57Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteLogin.TestSuiteBase">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.suiteLogin.TestSuiteBase@2d298123]" name="checkSuiteSkip" is-config="true" duration-ms="1193" started-at="2015-08-19T15:58:56Z" finished-at="2015-08-19T15:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+      </class> <!-- com.suiteLogin.TestSuiteBase -->
+      <class name="com.suiteLogin.TestCase_Login">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.suiteLogin.TestCase_Login@19f70605]" name="checkTestSkip" is-config="true" duration-ms="1" started-at="2015-08-19T15:58:57Z" finished-at="2015-08-19T15:58:57Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="TestCaseLogin()[pri:0, instance:com.suiteLogin.TestCase_Login@19f70605]" name="TestCaseLogin" duration-ms="27250" started-at="2015-08-19T15:58:57Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseLogin -->
+        <test-method status="PASS" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteLogin.TestCase_Login@19f70605]" name="DefaultResult" is-config="true" duration-ms="1" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TestCaseLogin status=SUCCESS method=TestCase_Login.TestCaseLogin()[pri:0, instance:com.suiteLogin.TestCase_Login@19f70605] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteLogin.TestCase_Login -->
+    </test> <!-- Login Test Case -->
+  </suite> <!-- Login -->
+  <suite name="Users Test Cases" duration-ms="19" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="Create New User" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteUsers.TestCase_CreateUser">
+        <test-method status="SKIP" signature="verifyCreateUser()[pri:0, instance:com.suiteUsers.TestCase_CreateUser@9794e36]" name="verifyCreateUser" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateUser -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteUsers.TestCase_CreateUser@9794e36]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteUsers.TestCase_CreateUser@9794e36]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteUsers.TestCase_CreateUser -->
+    </test> <!-- Create New User -->
+    <test name="Create a Restricted User" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteUsers.TestCase_CreateRestrictedUser">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteUsers.TestCase_CreateRestrictedUser@133c0a8a]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyCreateRestrictedUser()[pri:0, instance:com.suiteUsers.TestCase_CreateRestrictedUser@133c0a8a]" name="verifyCreateRestrictedUser" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateRestrictedUser -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteUsers.TestCase_CreateRestrictedUser@133c0a8a]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteUsers.TestCase_CreateRestrictedUser -->
+    </test> <!-- Create a Restricted User -->
+    <test name="Check Include grader only account search" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteUsers.TestCase_IncludeGraderOnlyAccountsCheck">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteUsers.TestCase_IncludeGraderOnlyAccountsCheck@7a1b16bd]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyIncludeGraderOnlyAccountsCheck()[pri:0, instance:com.suiteUsers.TestCase_IncludeGraderOnlyAccountsCheck@7a1b16bd]" name="verifyIncludeGraderOnlyAccountsCheck" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyIncludeGraderOnlyAccountsCheck -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteUsers.TestCase_IncludeGraderOnlyAccountsCheck@7a1b16bd]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteUsers.TestCase_IncludeGraderOnlyAccountsCheck -->
+    </test> <!-- Check Include grader only account search -->
+    <test name="Email a User" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteUsers.TestCase_EmailUser">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteUsers.TestCase_EmailUser@72e797db]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyEmailUser()[pri:0, instance:com.suiteUsers.TestCase_EmailUser@72e797db]" name="verifyEmailUser" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEmailUser -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteUsers.TestCase_EmailUser@72e797db]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteUsers.TestCase_EmailUser -->
+    </test> <!-- Email a User -->
+    <test name="Edit a User" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteUsers.TestCase_EditUser">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteUsers.TestCase_EditUser@852732d]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyEditUser()[pri:0, instance:com.suiteUsers.TestCase_EditUser@852732d]" name="verifyEditUser" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditUser -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteUsers.TestCase_EditUser@852732d]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteUsers.TestCase_EditUser -->
+    </test> <!-- Edit a User -->
+    <test name="Delete a User" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteUsers.TestSuiteBase">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.suiteUsers.TestSuiteBase@6cd8739a]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'UsersSuite' is set to 'NO', hence skipping all tests in Suite!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'UsersSuite' is set to 'NO', hence skipping all tests in Suite!
+	at Util.TestUtil.checkSuiteSkip(TestUtil.java:137)
+	at com.suiteUsers.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+      </class> <!-- com.suiteUsers.TestSuiteBase -->
+      <class name="com.suiteUsers.TestCase_DeleteUser">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteUsers.TestCase_DeleteUser@fb95de0]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyDeleteUser()[pri:0, instance:com.suiteUsers.TestCase_DeleteUser@fb95de0]" name="verifyDeleteUser" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteUser -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteUsers.TestCase_DeleteUser@fb95de0]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteUsers.TestCase_DeleteUser -->
+    </test> <!-- Delete a User -->
+  </suite> <!-- Users Test Cases -->
+  <suite name="Assessments Test Cases" duration-ms="60" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="New Assessment Custom Notice" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentCustomNotice">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentCustomNotice@2196fffc]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentCustomNotice@2196fffc]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="NewAssessmentCustomNotice()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentCustomNotice@2196fffc]" name="NewAssessmentCustomNotice" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewAssessmentCustomNotice -->
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentCustomNotice -->
+    </test> <!-- New Assessment Custom Notice -->
+    <test name="New Assessment Notice Template" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentNoticeTemplate">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentNoticeTemplate@2e64e02]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="NewAssessmentNoticeTemplate()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentNoticeTemplate@2e64e02]" name="NewAssessmentNoticeTemplate" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewAssessmentNoticeTemplate -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentNoticeTemplate@2e64e02]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentNoticeTemplate -->
+    </test> <!-- New Assessment Notice Template -->
+    <test name="New Assessment Add Questions" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentAddQuestions">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentAddQuestions@43c3d993]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="NewAssessmentAddQuestions()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentAddQuestions@43c3d993]" name="NewAssessmentAddQuestions" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewAssessmentAddQuestions -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentAddQuestions@43c3d993]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentAddQuestions -->
+    </test> <!-- New Assessment Add Questions -->
+    <test name="Most Recent Revised Assessment" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_MostReceRevisedAssessment">
+        <test-method status="SKIP" signature="MostReceRevisedAssessment()[pri:0, instance:com.SuiteAssessments.TestCase_MostReceRevisedAssessment@4fe3d81]" name="MostReceRevisedAssessment" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- MostReceRevisedAssessment -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_MostReceRevisedAssessment@4fe3d81]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_MostReceRevisedAssessment@4fe3d81]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteAssessments.TestCase_MostReceRevisedAssessment -->
+    </test> <!-- Most Recent Revised Assessment -->
+    <test name="New Assessment Saveas Draft" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentsaveasDraft">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentsaveasDraft@7662953a]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentsaveasDraft@7662953a]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="NewAssessmentsaveasDraft()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentsaveasDraft@7662953a]" name="NewAssessmentsaveasDraft" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- NewAssessmentsaveasDraft -->
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentsaveasDraft -->
+    </test> <!-- New Assessment Saveas Draft -->
+    <test name="Edit Assessment Export Print" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_EditAssessmentExportPrint">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_EditAssessmentExportPrint@5da7d7e5]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="EditAssessmentExportPrint()[pri:0, instance:com.SuiteAssessments.TestCase_EditAssessmentExportPrint@5da7d7e5]" name="EditAssessmentExportPrint" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditAssessmentExportPrint -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_EditAssessmentExportPrint@5da7d7e5]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteAssessments.TestCase_EditAssessmentExportPrint -->
+    </test> <!-- Edit Assessment Export Print -->
+    <test name="Edit Assessment Preview " duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_EditAssessmentPreview">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_EditAssessmentPreview@39401e69]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_EditAssessmentPreview@39401e69]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="EditAssessmentPreview()[pri:0, instance:com.SuiteAssessments.TestCase_EditAssessmentPreview@39401e69]" name="EditAssessmentPreview" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditAssessmentPreview -->
+      </class> <!-- com.SuiteAssessments.TestCase_EditAssessmentPreview -->
+    </test> <!-- Edit Assessment Preview  -->
+    <test name="Post Assessment " duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_PostAssessment">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_PostAssessment@6fb66469]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="PostAssessment()[pri:0, instance:com.SuiteAssessments.TestCase_PostAssessment@6fb66469]" name="PostAssessment" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostAssessment -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_PostAssessment@6fb66469]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteAssessments.TestCase_PostAssessment -->
+    </test> <!-- Post Assessment  -->
+    <test name="Post Assessment Preview " duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_PostAssessmentPreview">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_PostAssessmentPreview@5ee55d17]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_PostAssessmentPreview@5ee55d17]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="PostAssessmentPreview()[pri:0, instance:com.SuiteAssessments.TestCase_PostAssessmentPreview@5ee55d17]" name="PostAssessmentPreview" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostAssessmentPreview -->
+      </class> <!-- com.SuiteAssessments.TestCase_PostAssessmentPreview -->
+    </test> <!-- Post Assessment Preview  -->
+    <test name="multiple post" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_multiplepost">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_multiplepost@2b132ca1]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="multiplepost()[pri:0, instance:com.SuiteAssessments.TestCase_multiplepost@2b132ca1]" name="multiplepost" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- multiplepost -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_multiplepost@2b132ca1]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteAssessments.TestCase_multiplepost -->
+    </test> <!-- multiple post -->
+    <test name="Unpostposting" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_Unpostposting">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_Unpostposting@221abac1]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="Unpostposting()[pri:0, instance:com.SuiteAssessments.TestCase_Unpostposting@221abac1]" name="Unpostposting" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Unpostposting -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_Unpostposting@221abac1]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteAssessments.TestCase_Unpostposting -->
+    </test> <!-- Unpostposting -->
+    <test name="Duplicate posting" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_Duplicateposting">
+        <test-method status="SKIP" signature="Duplicateposting()[pri:0, instance:com.SuiteAssessments.TestCase_Duplicateposting@47845cb3]" name="Duplicateposting" duration-ms="1" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Duplicateposting -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_Duplicateposting@47845cb3]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_Duplicateposting@47845cb3]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteAssessments.TestCase_Duplicateposting -->
+    </test> <!-- Duplicate posting -->
+    <test name="Retire posting" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_Retireposting">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_Retireposting@47f5d05b]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="PostAssessment()[pri:0, instance:com.SuiteAssessments.TestCase_Retireposting@47f5d05b]" name="PostAssessment" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PostAssessment -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_Retireposting@47f5d05b]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteAssessments.TestCase_Retireposting -->
+    </test> <!-- Retire posting -->
+    <test name="Create New folder" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentfolder">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentfolder@4823ec74]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentfolder@4823ec74]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="newAssessmentfolder()[pri:0, instance:com.SuiteAssessments.TestCase_NewAssessmentfolder@4823ec74]" name="newAssessmentfolder" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- newAssessmentfolder -->
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentfolder -->
+    </test> <!-- Create New folder -->
+    <test name="Edit created assessment folder" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_EditAssessmentfolder">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_EditAssessmentfolder@2520aade]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="editAssessmentfolder()[pri:0, instance:com.SuiteAssessments.TestCase_EditAssessmentfolder@2520aade]" name="editAssessmentfolder" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- editAssessmentfolder -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_EditAssessmentfolder@2520aade]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteAssessments.TestCase_EditAssessmentfolder -->
+    </test> <!-- Edit created assessment folder -->
+    <test name="Share created assessment folder" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_ShareAssessmentfolder">
+        <test-method status="SKIP" signature="shareAssessmentfolder()[pri:0, instance:com.SuiteAssessments.TestCase_ShareAssessmentfolder@7e6c7407]" name="shareAssessmentfolder" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- shareAssessmentfolder -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_ShareAssessmentfolder@7e6c7407]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_ShareAssessmentfolder@7e6c7407]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteAssessments.TestCase_ShareAssessmentfolder -->
+    </test> <!-- Share created assessment folder -->
+    <test name="Delete Created folder" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.SuiteAssessments.TestCase_DeleteAssessmentfolder@47f35aaa]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'AssessmentsSuite' is set to 'NO', hence skipping all tests in Suite!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'AssessmentsSuite' is set to 'NO', hence skipping all tests in Suite!
+	at Util.TestUtil.checkSuiteSkip(TestUtil.java:137)
+	at com.SuiteAssessments.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="SKIP" signature="deleteAssessmentfolder()[pri:0, instance:com.SuiteAssessments.TestCase_DeleteAssessmentfolder@47f35aaa]" name="deleteAssessmentfolder" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAssessmentfolder -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteAssessments.TestCase_DeleteAssessmentfolder@47f35aaa]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteAssessments.TestCase_DeleteAssessmentfolder@47f35aaa]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="cleanUp()[pri:0, instance:com.SuiteAssessments.TestCase_DeleteAssessmentfolder@47f35aaa]" name="cleanUp" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+    </test> <!-- Delete Created folder -->
+  </suite> <!-- Assessments Test Cases -->
+  <suite name="Reports Settings" duration-ms="21" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="CheckETResults" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteReports.TestCase_CheckETResults">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteReports.TestCase_CheckETResults@6be3506d]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CheckETResults()[pri:0, instance:com.SuiteReports.TestCase_CheckETResults@6be3506d]" name="CheckETResults" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckETResults -->
+        <test-method status="SKIP" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuiteReports.TestCase_CheckETResults@6be3506d]" name="DefaultResutl" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+      </class> <!-- com.SuiteReports.TestCase_CheckETResults -->
+    </test> <!-- CheckETResults -->
+    <test name="CheckSummaryReports" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteReports.TestCase_CheckSummaryReport">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteReports.TestCase_CheckSummaryReport@439ca904]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CheckSummaryReports()[pri:0, instance:com.SuiteReports.TestCase_CheckSummaryReport@439ca904]" name="CheckSummaryReports" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSummaryReports -->
+        <test-method status="SKIP" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuiteReports.TestCase_CheckSummaryReport@439ca904]" name="DefaultResutl" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+      </class> <!-- com.SuiteReports.TestCase_CheckSummaryReport -->
+    </test> <!-- CheckSummaryReports -->
+    <test name="CheckReleaseETResults" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteReports.TestCase_CheckReleaseETResults">
+        <test-method status="SKIP" signature="CheckReleaseResults()[pri:0, instance:com.SuiteReports.TestCase_CheckReleaseETResults@5a311ade]" name="CheckReleaseResults" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckReleaseResults -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteReports.TestCase_CheckReleaseETResults@5a311ade]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuiteReports.TestCase_CheckReleaseETResults@5a311ade]" name="DefaultResutl" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+      </class> <!-- com.SuiteReports.TestCase_CheckReleaseETResults -->
+    </test> <!-- CheckReleaseETResults -->
+    <test name="CheckReleaseETResultsSendEmail" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteReports.TestCase_CheckReleaseETResults_PostEmail">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteReports.TestCase_CheckReleaseETResults_PostEmail@14ea0724]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuiteReports.TestCase_CheckReleaseETResults_PostEmail@14ea0724]" name="DefaultResutl" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+        <test-method status="SKIP" signature="CheckReleaseETResultsPostEmail()[pri:0, instance:com.SuiteReports.TestCase_CheckReleaseETResults_PostEmail@14ea0724]" name="CheckReleaseETResultsPostEmail" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckReleaseETResultsPostEmail -->
+      </class> <!-- com.SuiteReports.TestCase_CheckReleaseETResults_PostEmail -->
+    </test> <!-- CheckReleaseETResultsSendEmail -->
+    <test name="SandOReports" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteReports.TestCase_CheckSandOReports">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteReports.TestCase_CheckSandOReports@721bdf30]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CheckSNOReports()[pri:0, instance:com.SuiteReports.TestCase_CheckSandOReports@721bdf30]" name="CheckSNOReports" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckSNOReports -->
+        <test-method status="SKIP" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuiteReports.TestCase_CheckSandOReports@721bdf30]" name="DefaultResutl" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+      </class> <!-- com.SuiteReports.TestCase_CheckSandOReports -->
+    </test> <!-- SandOReports -->
+    <test name="CategoryReports" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteReports.TestCase_CheckCategoryReports">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.SuiteReports.TestCase_CheckCategoryReports@3e9f3364]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'ReportsSuite' is set to 'NO', hence skipping all tests in Suite!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'ReportsSuite' is set to 'NO', hence skipping all tests in Suite!
+	at Util.TestUtil.checkSuiteSkip(TestUtil.java:137)
+	at com.SuiteReports.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="SKIP" signature="CheckCategoryReports()[pri:0, instance:com.SuiteReports.TestCase_CheckCategoryReports@3e9f3364]" name="CheckCategoryReports" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCategoryReports -->
+        <test-method status="SKIP" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuiteReports.TestCase_CheckCategoryReports@3e9f3364]" name="DefaultResutl" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteReports.TestCase_CheckCategoryReports@3e9f3364]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteReports.TestCase_CheckCategoryReports -->
+    </test> <!-- CategoryReports -->
+  </suite> <!-- Reports Settings -->
+  <suite name="Questions" duration-ms="153" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:25Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="Verify CreateQSLinks Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_CreateQSLinks">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_CreateQSLinks@11b5b834]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_CreateQSLinks@11b5b834]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyCreateQSLinkTest()[pri:0, instance:com.suiteQuestions.TestCase_CreateQSLinks@11b5b834]" name="verifyCreateQSLinkTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateQSLinkTest -->
+      </class> <!-- com.suiteQuestions.TestCase_CreateQSLinks -->
+    </test> <!-- Verify CreateQSLinks Test Case -->
+    <test name="Verify DefaultQSbyFolder Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_DefaultQSbyFolder">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_DefaultQSbyFolder@f598d5f]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifydefaultQSbyFolderLinkTest()[pri:0, instance:com.suiteQuestions.TestCase_DefaultQSbyFolder@f598d5f]" name="verifydefaultQSbyFolderLinkTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifydefaultQSbyFolderLinkTest -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_DefaultQSbyFolder@f598d5f]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_DefaultQSbyFolder -->
+    </test> <!-- Verify DefaultQSbyFolder Test Case -->
+    <test name="Verify CreateFolder Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_CreateFolder">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_CreateFolder@1d8dd769]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_CreateFolder@1d8dd769]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyCreateQSFolderTest()[pri:0, instance:com.suiteQuestions.TestCase_CreateFolder@1d8dd769]" name="verifyCreateQSFolderTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateQSFolderTest -->
+      </class> <!-- com.suiteQuestions.TestCase_CreateFolder -->
+    </test> <!-- Verify CreateFolder Test Case -->
+    <test name="Verify Create New Category Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_CreateNewCategory">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_CreateNewCategory@499aed36]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_CreateNewCategory@499aed36]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyCreateCategoryTest()[pri:0, instance:com.suiteQuestions.TestCase_CreateNewCategory@499aed36]" name="verifyCreateCategoryTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateCategoryTest -->
+      </class> <!-- com.suiteQuestions.TestCase_CreateNewCategory -->
+    </test> <!-- Verify Create New Category Test Case -->
+    <test name="Verify Create MC Questions Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_CreateMCQuestions">
+        <test-method status="SKIP" signature="verifyCreateMCQuestionsTest()[pri:0, instance:com.suiteQuestions.TestCase_CreateMCQuestions@73d08edf]" name="verifyCreateMCQuestionsTest" duration-ms="1" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateMCQuestionsTest -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_CreateMCQuestions@73d08edf]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_CreateMCQuestions@73d08edf]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_CreateMCQuestions -->
+    </test> <!-- Verify Create MC Questions Test Case -->
+    <test name="Verify Create TrueFalse Questions Test Case" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_CreateTFQuestions">
+        <test-method status="SKIP" signature="verifyCreateTFQuestionsTest()[pri:0, instance:com.suiteQuestions.TestCase_CreateTFQuestions@71060c3e]" name="verifyCreateTFQuestionsTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateTFQuestionsTest -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_CreateTFQuestions@71060c3e]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_CreateTFQuestions@71060c3e]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteQuestions.TestCase_CreateTFQuestions -->
+    </test> <!-- Verify Create TrueFalse Questions Test Case -->
+    <test name="Verify Create Essay Questions Test Case" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_CreateEassyQuestions">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_CreateEassyQuestions@6e6be940]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyCreateEssayQuestionsTest()[pri:0, instance:com.suiteQuestions.TestCase_CreateEassyQuestions@6e6be940]" name="verifyCreateEssayQuestionsTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateEssayQuestionsTest -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_CreateEassyQuestions@6e6be940]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteQuestions.TestCase_CreateEassyQuestions -->
+    </test> <!-- Verify Create Essay Questions Test Case -->
+    <test name="Verify Create FITB Questions Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_CreateFITBQuestions">
+        <test-method status="SKIP" signature="verifyCreateFITBQuestionsTest()[pri:0, instance:com.suiteQuestions.TestCase_CreateFITBQuestions@19e02860]" name="verifyCreateFITBQuestionsTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateFITBQuestionsTest -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_CreateFITBQuestions@19e02860]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_CreateFITBQuestions@19e02860]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_CreateFITBQuestions -->
+    </test> <!-- Verify Create FITB Questions Test Case -->
+    <test name="Verify SelectCategoryFolder Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_SelectCategoryFolder">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_SelectCategoryFolder@369ef286]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_SelectCategoryFolder@369ef286]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifySelectCategoryFolder()[pri:0, instance:com.suiteQuestions.TestCase_SelectCategoryFolder@369ef286]" name="verifySelectCategoryFolder" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectCategoryFolder -->
+      </class> <!-- com.suiteQuestions.TestCase_SelectCategoryFolder -->
+    </test> <!-- Verify SelectCategoryFolder Test Case -->
+    <test name="Verify Search By Id Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_SearchQuestionsById">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_SearchQuestionsById@23d2c798]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_SearchQuestionsById@23d2c798]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifySearchQuestionsByIdTest()[pri:0, instance:com.suiteQuestions.TestCase_SearchQuestionsById@23d2c798]" name="verifySearchQuestionsByIdTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchQuestionsByIdTest -->
+      </class> <!-- com.suiteQuestions.TestCase_SearchQuestionsById -->
+    </test> <!-- Verify Search By Id Test Case -->
+    <test name="Verify Search By Name Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_SearchQuestionsByName">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_SearchQuestionsByName@1c3627d1]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifySearchQuestionsByNameTest()[pri:0, instance:com.suiteQuestions.TestCase_SearchQuestionsByName@1c3627d1]" name="verifySearchQuestionsByNameTest" duration-ms="1" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySearchQuestionsByNameTest -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_SearchQuestionsByName@1c3627d1]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_SearchQuestionsByName -->
+    </test> <!-- Verify Search By Name Test Case -->
+    <test name="Verify SelectAnyFolder Test Case" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_SelectAnyFolder">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_SelectAnyFolder@63049cf]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifySelectionOfQSFolderTest()[pri:0, instance:com.suiteQuestions.TestCase_SelectAnyFolder@63049cf]" name="verifySelectionOfQSFolderTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifySelectionOfQSFolderTest -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_SelectAnyFolder@63049cf]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_SelectAnyFolder -->
+    </test> <!-- Verify SelectAnyFolder Test Case -->
+    <test name="Verify Bulk Approve Test Case" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_CreateBulkApproveQuestions">
+        <test-method status="SKIP" signature="verifyCreateBulkApproveQuestionsTest()[pri:0, instance:com.suiteQuestions.TestCase_CreateBulkApproveQuestions@4d04a0e8]" name="verifyCreateBulkApproveQuestionsTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateBulkApproveQuestionsTest -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_CreateBulkApproveQuestions@4d04a0e8]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_CreateBulkApproveQuestions@4d04a0e8]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_CreateBulkApproveQuestions -->
+    </test> <!-- Verify Bulk Approve Test Case -->
+    <test name="Verify Delete Questions in Folder Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_DeleteQSInFolder">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_DeleteQSInFolder@2550036c]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyDeleteQSInFolderTest()[pri:0, instance:com.suiteQuestions.TestCase_DeleteQSInFolder@2550036c]" name="verifyDeleteQSInFolderTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteQSInFolderTest -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_DeleteQSInFolder@2550036c]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_DeleteQSInFolder -->
+    </test> <!-- Verify Delete Questions in Folder Test Case -->
+    <test name="Verify Import RTF format Test Case" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_ImportQuestionsRFTFormat">
+        <test-method status="SKIP" signature="verifyImportQuestionsRFTFormatTest()[pri:0, instance:com.suiteQuestions.TestCase_ImportQuestionsRFTFormat@78462a0c]" name="verifyImportQuestionsRFTFormatTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImportQuestionsRFTFormatTest -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_ImportQuestionsRFTFormat@78462a0c]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_ImportQuestionsRFTFormat@78462a0c]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_ImportQuestionsRFTFormat -->
+    </test> <!-- Verify Import RTF format Test Case -->
+    <test name="Verify Import Tab Seperated format Test Case" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_ImportQuestionsTabSeperated">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_ImportQuestionsTabSeperated@66aa50f]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_ImportQuestionsTabSeperated@66aa50f]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyImportQuestionsTabSeperatedTest()[pri:0, instance:com.suiteQuestions.TestCase_ImportQuestionsTabSeperated@66aa50f]" name="verifyImportQuestionsTabSeperatedTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyImportQuestionsTabSeperatedTest -->
+      </class> <!-- com.suiteQuestions.TestCase_ImportQuestionsTabSeperated -->
+    </test> <!-- Verify Import Tab Seperated format Test Case -->
+    <test name="Verify Question used by Exam should not be deleted" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_DeleteQSUsedByExam">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_DeleteQSUsedByExam@2521ddb8]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_DeleteQSUsedByExam@2521ddb8]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyDeleteQSUsedByExam()[pri:0, instance:com.suiteQuestions.TestCase_DeleteQSUsedByExam@2521ddb8]" name="verifyDeleteQSUsedByExam" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteQSUsedByExam -->
+      </class> <!-- com.suiteQuestions.TestCase_DeleteQSUsedByExam -->
+    </test> <!-- Verify Question used by Exam should not be deleted -->
+    <test name="Verify Share Folder Test Case" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_ShareFolder">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_ShareFolder@43e65667]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyShareFolderTest()[pri:0, instance:com.suiteQuestions.TestCase_ShareFolder@43e65667]" name="verifyShareFolderTest" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShareFolderTest -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_ShareFolder@43e65667]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteQuestions.TestCase_ShareFolder -->
+    </test> <!-- Verify Share Folder Test Case -->
+    <test name="Verify QSbyCategories Test Case" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.suiteQuestions.TestCase_QSbyCategories">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_QSbyCategories@2b7ac7ba]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_QSbyCategories@2b7ac7ba]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyQSbyCategories()[pri:0, instance:com.suiteQuestions.TestCase_QSbyCategories@2b7ac7ba]" name="verifyQSbyCategories" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyQSbyCategories -->
+      </class> <!-- com.suiteQuestions.TestCase_QSbyCategories -->
+    </test> <!-- Verify QSbyCategories Test Case -->
+    <test name="Verify EditFolder Test Case" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_EditFolder">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_EditFolder@f0f559e]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyEditQSFolderTest()[pri:0, instance:com.suiteQuestions.TestCase_EditFolder@f0f559e]" name="verifyEditQSFolderTest" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyEditQSFolderTest -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_EditFolder@f0f559e]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteQuestions.TestCase_EditFolder -->
+    </test> <!-- Verify EditFolder Test Case -->
+    <test name="Verify DeleteFolder Test Case" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_DeleteFolder">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_DeleteFolder@173940bb]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_DeleteFolder@173940bb]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyDeleteQSFolderTest()[pri:0, instance:com.suiteQuestions.TestCase_DeleteFolder@173940bb]" name="verifyDeleteQSFolderTest" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteQSFolderTest -->
+      </class> <!-- com.suiteQuestions.TestCase_DeleteFolder -->
+    </test> <!-- Verify DeleteFolder Test Case -->
+    <test name="Verify Question&#039;s page breadcrum and heading" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_BreadcrumAndHeading">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_BreadcrumAndHeading@5bbc608f]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyBreadcrumAndHeading()[pri:0, instance:com.suiteQuestions.TestCase_BreadcrumAndHeading@5bbc608f]" name="verifyBreadcrumAndHeading" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBreadcrumAndHeading -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_BreadcrumAndHeading@5bbc608f]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_BreadcrumAndHeading -->
+    </test> <!-- Verify Question's page breadcrum and heading -->
+    <test name="Check search and reset option under side bar grids" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_FolderAndCategorySearch">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_FolderAndCategorySearch@259c9aea]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_FolderAndCategorySearch@259c9aea]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyFolderAndCategorySearch()[pri:0, instance:com.suiteQuestions.TestCase_FolderAndCategorySearch@259c9aea]" name="verifyFolderAndCategorySearch" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFolderAndCategorySearch -->
+      </class> <!-- com.suiteQuestions.TestCase_FolderAndCategorySearch -->
+    </test> <!-- Check search and reset option under side bar grids -->
+    <test name="Check Folder question count on LHS and RHS grids" duration-ms="2" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_FolderQuestionCount_LHS_RHS_Grid">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_FolderQuestionCount_LHS_RHS_Grid@1e677aca]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_FolderQuestionCount_LHS_RHS_Grid@1e677aca]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyFolderQuestionCount_LHS_RHS_Grid()[pri:0, instance:com.suiteQuestions.TestCase_FolderQuestionCount_LHS_RHS_Grid@1e677aca]" name="verifyFolderQuestionCount_LHS_RHS_Grid" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFolderQuestionCount_LHS_RHS_Grid -->
+      </class> <!-- com.suiteQuestions.TestCase_FolderQuestionCount_LHS_RHS_Grid -->
+    </test> <!-- Check Folder question count on LHS and RHS grids -->
+    <test name="Verify &#039;Community&#039; and &#039;Help Guide&#039; links are appearing and their corressponding popups are opening or not." duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_Community_HelpGuide_Links">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_Community_HelpGuide_Links@30cbd22a]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyCommunity_HelpGuide_Links()[pri:0, instance:com.suiteQuestions.TestCase_Community_HelpGuide_Links@30cbd22a]" name="verifyCommunity_HelpGuide_Links" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCommunity_HelpGuide_Links -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_Community_HelpGuide_Links@30cbd22a]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_Community_HelpGuide_Links -->
+    </test> <!-- Verify 'Community' and 'Help Guide' links are appearing and their corressponding popups are opening or not. -->
+    <test name="Verify user is able to export grid results to excel and CSV files." duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_ExportResults_Excel_CSV">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_ExportResults_Excel_CSV@53aa4bb4]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_ExportResults_Excel_CSV@53aa4bb4]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyExportResults_Excel_CSV()[pri:0, instance:com.suiteQuestions.TestCase_ExportResults_Excel_CSV@53aa4bb4]" name="verifyExportResults_Excel_CSV" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExportResults_Excel_CSV -->
+      </class> <!-- com.suiteQuestions.TestCase_ExportResults_Excel_CSV -->
+    </test> <!-- Verify user is able to export grid results to excel and CSV files. -->
+    <test name="Verify whether Expand/Shrink Results link is working properly." duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_ExpandShrinkResultsLink">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_ExpandShrinkResultsLink@44215571]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_ExpandShrinkResultsLink@44215571]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyExpandShrinkResultsLink()[pri:0, instance:com.suiteQuestions.TestCase_ExpandShrinkResultsLink@44215571]" name="verifyExpandShrinkResultsLink" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExpandShrinkResultsLink -->
+      </class> <!-- com.suiteQuestions.TestCase_ExpandShrinkResultsLink -->
+    </test> <!-- Verify whether Expand/Shrink Results link is working properly. -->
+    <test name="Check user is able to duplicate bulk selected questions to a particular folder." duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_BulkDuplicate">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_BulkDuplicate@4dee4aae]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyBulkDuplicate()[pri:0, instance:com.suiteQuestions.TestCase_BulkDuplicate@4dee4aae]" name="verifyBulkDuplicate" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBulkDuplicate -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_BulkDuplicate@4dee4aae]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteQuestions.TestCase_BulkDuplicate -->
+    </test> <!-- Check user is able to duplicate bulk selected questions to a particular folder. -->
+    <test name="Check user is able to move questions to another folder for bulk selected questions from question listing grid." duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_BulkMoveToAnotherFolder">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_BulkMoveToAnotherFolder@7b8c1496]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyBulkMoveToAnotherFolder()[pri:0, instance:com.suiteQuestions.TestCase_BulkMoveToAnotherFolder@7b8c1496]" name="verifyBulkMoveToAnotherFolder" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBulkMoveToAnotherFolder -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_BulkMoveToAnotherFolder@7b8c1496]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteQuestions.TestCase_BulkMoveToAnotherFolder -->
+    </test> <!-- Check user is able to move questions to another folder for bulk selected questions from question listing grid. -->
+    <test name="Check user is able to remove bulk selected questions which are not used in any assignments from question listing grid." duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteQuestions.TestCase_BulkRemoveItems">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteQuestions.TestCase_BulkRemoveItems@625a80df]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteQuestions.TestCase_BulkRemoveItems@625a80df]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="verifyBulkMoveToAnotherFolder()[pri:0, instance:com.suiteQuestions.TestCase_BulkRemoveItems@625a80df]" name="verifyBulkMoveToAnotherFolder" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBulkMoveToAnotherFolder -->
+      </class> <!-- com.suiteQuestions.TestCase_BulkRemoveItems -->
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.suiteQuestions.QuestionSuiteBase@5c328896]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'QuestionsSuite' is set to 'NO', hence skipping all tests in Suite!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'QuestionsSuite' is set to 'NO', hence skipping all tests in Suite!
+	at Util.TestUtil.checkSuiteSkip(TestUtil.java:137)
+	at com.suiteQuestions.QuestionSuiteBase.checkSuiteSkip(QuestionSuiteBase.java:13)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+    </test> <!-- Check user is able to remove bulk selected questions which are not used in any assignments from question listing grid. -->
+  </suite> <!-- Questions -->
+  <suite name="Logout" duration-ms="21127" started-at="2015-08-19T10:34:15Z" finished-at="2015-08-19T10:34:36Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="0" started-at="2015-08-19T10:34:15Z" finished-at="2015-08-19T10:34:15Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="Logout Test Case" duration-ms="21105" started-at="2015-08-19T10:34:15Z" finished-at="2015-08-19T10:34:36Z">
+      <class name="com.suiteLogout.TestSuiteBase">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.suiteLogout.TestSuiteBase@7516a69b]" name="checkSuiteSkip" is-config="true" duration-ms="1" started-at="2015-08-19T16:04:15Z" finished-at="2015-08-19T16:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+      </class> <!-- com.suiteLogout.TestSuiteBase -->
+      <class name="com.suiteLogout.TestCase_Logout">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.suiteLogout.TestCase_Logout@62787c64]" name="checkTestSkip" is-config="true" duration-ms="3" started-at="2015-08-19T16:04:15Z" finished-at="2015-08-19T16:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="LogOutTest()[pri:0, instance:com.suiteLogout.TestCase_Logout@62787c64]" name="LogOutTest" duration-ms="20687" started-at="2015-08-19T16:04:15Z" finished-at="2015-08-19T16:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LogOutTest -->
+        <test-method status="PASS" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteLogout.TestCase_Logout@62787c64]" name="DefaultResult" is-config="true" duration-ms="415" started-at="2015-08-19T16:04:36Z" finished-at="2015-08-19T16:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=LogOutTest status=SUCCESS method=TestCase_Logout.LogOutTest()[pri:0, instance:com.suiteLogout.TestCase_Logout@62787c64] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteLogout.TestCase_Logout -->
+    </test> <!-- Logout Test Case -->
+  </suite> <!-- Logout -->
+  <suite name="ExamTaker" duration-ms="51" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of ExamTakerSuite" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    </test> <!-- Check Runmode of ExamTakerSuite -->
+    <test name="ExamTaker-CreateExamTaker" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_CreateExamTaker">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_CreateExamTaker@1dbee987]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_CreateExamTaker@1dbee987]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="CreateNewET()[pri:0, instance:com.SuiteExamTaker.TestCase_CreateExamTaker@1dbee987]" name="CreateNewET" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewET -->
+      </class> <!-- com.SuiteExamTaker.TestCase_CreateExamTaker -->
+    </test> <!-- ExamTaker-CreateExamTaker -->
+    <test name="ExamTaker-CancelCreateExamTaker" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_CancelCreateExamTaker">
+        <test-method status="SKIP" signature="CancelCreateNewET()[pri:0, instance:com.SuiteExamTaker.TestCase_CancelCreateExamTaker@780525d3]" name="CancelCreateNewET" duration-ms="1" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CancelCreateNewET -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_CancelCreateExamTaker@780525d3]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_CancelCreateExamTaker@780525d3]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteExamTaker.TestCase_CancelCreateExamTaker -->
+    </test> <!-- ExamTaker-CancelCreateExamTaker -->
+    <test name="ExamTaker-VerifyErrorMsg1_CreateExamTaker" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg1_CreateExamTaker">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg1_CreateExamTaker@541767f1]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg1_CreateExamTaker@541767f1]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CreateNewETwithoutFname()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg1_CreateExamTaker@541767f1]" name="CreateNewETwithoutFname" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewETwithoutFname -->
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg1_CreateExamTaker -->
+    </test> <!-- ExamTaker-VerifyErrorMsg1_CreateExamTaker -->
+    <test name="ExamTaker-VerifyErrorMsg2_CreateExamTaker" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg2_CreateExamTaker">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg2_CreateExamTaker@211120f9]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CreateNewETwithoutName()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg2_CreateExamTaker@211120f9]" name="CreateNewETwithoutName" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewETwithoutName -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg2_CreateExamTaker@211120f9]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg2_CreateExamTaker -->
+    </test> <!-- ExamTaker-VerifyErrorMsg2_CreateExamTaker -->
+    <test name="ExamTaker-VerifyErrorMsg3_CreateExamTaker" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg3_CreateExamTaker">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg3_CreateExamTaker@63292d35]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CreateNewETwithoutStudentID()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg3_CreateExamTaker@63292d35]" name="CreateNewETwithoutStudentID" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewETwithoutStudentID -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg3_CreateExamTaker@63292d35]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg3_CreateExamTaker -->
+    </test> <!-- ExamTaker-VerifyErrorMsg3_CreateExamTaker -->
+    <test name="ExamTaker-VerifyErrorMsg4_CreateExamTaker" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg4_CreateExamTaker">
+        <test-method status="SKIP" signature="CreateNewETwithoutEmailID()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg4_CreateExamTaker@2684c71b]" name="CreateNewETwithoutEmailID" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewETwithoutEmailID -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg4_CreateExamTaker@2684c71b]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg4_CreateExamTaker@2684c71b]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg4_CreateExamTaker -->
+    </test> <!-- ExamTaker-VerifyErrorMsg4_CreateExamTaker -->
+    <test name="ExamTaker-VerifyErrorMsg5_CreateExamTaker" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg5_CreateExamTaker">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg5_CreateExamTaker@2dcfde49]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg5_CreateExamTaker@2dcfde49]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="CreateNewETwithoutAnyField()[pri:0, instance:com.SuiteExamTaker.TestCase_VerifyErrorMsg5_CreateExamTaker@2dcfde49]" name="CreateNewETwithoutAnyField" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewETwithoutAnyField -->
+      </class> <!-- com.SuiteExamTaker.TestCase_VerifyErrorMsg5_CreateExamTaker -->
+    </test> <!-- ExamTaker-VerifyErrorMsg5_CreateExamTaker -->
+    <test name="ExamTaker-SearchExamTaker" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_SearchExamTaker">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_SearchExamTaker@444c742]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_SearchExamTaker@444c742]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="SearchET()[pri:0, instance:com.SuiteExamTaker.TestCase_SearchExamTaker@444c742]" name="SearchET" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchET -->
+      </class> <!-- com.SuiteExamTaker.TestCase_SearchExamTaker -->
+    </test> <!-- ExamTaker-SearchExamTaker -->
+    <test name="ExamTaker-EditExamTaker" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_EditExamTaker">
+        <test-method status="SKIP" signature="EditET()[pri:0, instance:com.SuiteExamTaker.TestCase_EditExamTaker@310c247a]" name="EditET" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditET -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_EditExamTaker@310c247a]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_EditExamTaker@310c247a]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteExamTaker.TestCase_EditExamTaker -->
+    </test> <!-- ExamTaker-EditExamTaker -->
+    <test name="ExamTaker-EmailExamTaker" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_EmailExamTaker">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_EmailExamTaker@332b25db]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="EmailET()[pri:0, instance:com.SuiteExamTaker.TestCase_EmailExamTaker@332b25db]" name="EmailET" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EmailET -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_EmailExamTaker@332b25db]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteExamTaker.TestCase_EmailExamTaker -->
+    </test> <!-- ExamTaker-EmailExamTaker -->
+    <test name="ExamTaker-DeleteExamTaker" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_DeleteExamTaker">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_DeleteExamTaker@7d16a957]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DeleteET()[pri:0, instance:com.SuiteExamTaker.TestCase_DeleteExamTaker@7d16a957]" name="DeleteET" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DeleteET -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_DeleteExamTaker@7d16a957]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteExamTaker.TestCase_DeleteExamTaker -->
+    </test> <!-- ExamTaker-DeleteExamTaker -->
+    <test name="ExamTaker-ExamTakerHistory" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_ExamTakerHistory">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_ExamTakerHistory@7ba2a1d2]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="ETHistory()[pri:0, instance:com.SuiteExamTaker.TestCase_ExamTakerHistory@7ba2a1d2]" name="ETHistory" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ETHistory -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_ExamTakerHistory@7ba2a1d2]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteExamTaker.TestCase_ExamTakerHistory -->
+    </test> <!-- ExamTaker-ExamTakerHistory -->
+    <test name="ExamTaker-BULKDeleteExamTaker" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_BULKDeleteExamTaker">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_BULKDeleteExamTaker@21e60319]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_BULKDeleteExamTaker@21e60319]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="BULKDeleteET()[pri:0, instance:com.SuiteExamTaker.TestCase_BULKDeleteExamTaker@21e60319]" name="BULKDeleteET" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BULKDeleteET -->
+      </class> <!-- com.SuiteExamTaker.TestCase_BULKDeleteExamTaker -->
+    </test> <!-- ExamTaker-BULKDeleteExamTaker -->
+    <test name="ExamTaker-BULKEditExamTaker" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_BULKEditExamTaker">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_BULKEditExamTaker@56dfbc0d]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="BULKEditET()[pri:0, instance:com.SuiteExamTaker.TestCase_BULKEditExamTaker@56dfbc0d]" name="BULKEditET" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- BULKEditET -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_BULKEditExamTaker@56dfbc0d]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteExamTaker.TestCase_BULKEditExamTaker -->
+    </test> <!-- ExamTaker-BULKEditExamTaker -->
+    <test name="ExamTaker-AdvanceSearchExamTaker" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker@656d2378]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'ExamTakerSuite' is set to 'NO', hence skipping all tests in Suite!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'ExamTakerSuite' is set to 'NO', hence skipping all tests in Suite!
+	at Util.TestUtil.checkSuiteSkip(TestUtil.java:137)
+	at com.SuiteExamTaker.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker@656d2378]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker@656d2378]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="AdvanceSearchET()[pri:0, instance:com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker@656d2378]" name="AdvanceSearchET" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AdvanceSearchET -->
+      </class> <!-- com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker -->
+    </test> <!-- ExamTaker-AdvanceSearchExamTaker -->
+  </suite> <!-- ExamTaker -->
+  <suite name="SofTeach" duration-ms="0" started-at="2015-08-19T10:34:39Z" finished-at="2015-08-19T10:34:39Z">
+    <groups>
+    </groups>
+  </suite> <!-- SofTeach -->
+  <suite name="PageCheck Settings" duration-ms="290144" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:34:15Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="PageCheckCategoryReport" duration-ms="60749" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:30:26Z">
+      <class name="com.SuitePageCheck.TestCase_PageCheckCategoryReports">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckCategoryReports@2434cccc]" name="checkTestSkip" is-config="true" duration-ms="3" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="PageCheckCategoryReports()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckCategoryReports@2434cccc]" name="PageCheckCategoryReports" duration-ms="60745" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T16:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageCheckCategoryReports -->
+        <test-method status="PASS" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckCategoryReports@2434cccc]" name="DefaultResutl" is-config="true" duration-ms="0" started-at="2015-08-19T16:00:26Z" finished-at="2015-08-19T16:00:26Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PageCheckCategoryReports status=SUCCESS method=TestCase_PageCheckCategoryReports.PageCheckCategoryReports()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckCategoryReports@2434cccc] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckCategoryReports -->
+    </test> <!-- PageCheckCategoryReport -->
+    <test name="PageCheckETReport" duration-ms="57905" started-at="2015-08-19T10:30:26Z" finished-at="2015-08-19T10:31:24Z">
+      <class name="com.SuitePageCheck.TestCase_PageCheckETReports">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckETReports@1fd60031]" name="checkTestSkip" is-config="true" duration-ms="2" started-at="2015-08-19T16:00:26Z" finished-at="2015-08-19T16:00:26Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="PageCheckETReports()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckETReports@1fd60031]" name="PageCheckETReports" duration-ms="57902" started-at="2015-08-19T16:00:26Z" finished-at="2015-08-19T16:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageCheckETReports -->
+        <test-method status="PASS" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckETReports@1fd60031]" name="DefaultResutl" is-config="true" duration-ms="1" started-at="2015-08-19T16:01:24Z" finished-at="2015-08-19T16:01:24Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PageCheckETReports status=SUCCESS method=TestCase_PageCheckETReports.PageCheckETReports()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckETReports@1fd60031] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckETReports -->
+    </test> <!-- PageCheckETReport -->
+    <test name="PageCheckReleaseResult" duration-ms="52590" started-at="2015-08-19T10:31:24Z" finished-at="2015-08-19T10:32:16Z">
+      <class name="com.SuitePageCheck.TestCase_PageCheckReleaseResult">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckReleaseResult@391fc13d]" name="checkTestSkip" is-config="true" duration-ms="1" started-at="2015-08-19T16:01:24Z" finished-at="2015-08-19T16:01:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="PageCheckReleaseResult()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckReleaseResult@391fc13d]" name="PageCheckReleaseResult" duration-ms="52588" started-at="2015-08-19T16:01:24Z" finished-at="2015-08-19T16:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageCheckReleaseResult -->
+        <test-method status="PASS" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckReleaseResult@391fc13d]" name="DefaultResutl" is-config="true" duration-ms="0" started-at="2015-08-19T16:02:16Z" finished-at="2015-08-19T16:02:16Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PageCheckReleaseResult status=SUCCESS method=TestCase_PageCheckReleaseResult.PageCheckReleaseResult()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckReleaseResult@391fc13d] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckReleaseResult -->
+    </test> <!-- PageCheckReleaseResult -->
+    <test name="PageCheckSandOReport" duration-ms="54483" started-at="2015-08-19T10:32:16Z" finished-at="2015-08-19T10:33:11Z">
+      <class name="com.SuitePageCheck.TestCase_PageCheckSandOReport">
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckSandOReport@6dbd984]" name="checkTestSkip" is-config="true" duration-ms="1" started-at="2015-08-19T16:02:16Z" finished-at="2015-08-19T16:02:16Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="PageCheckSandOReport()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckSandOReport@6dbd984]" name="PageCheckSandOReport" duration-ms="54482" started-at="2015-08-19T16:02:16Z" finished-at="2015-08-19T16:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageCheckSandOReport -->
+        <test-method status="PASS" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckSandOReport@6dbd984]" name="DefaultResutl" is-config="true" duration-ms="0" started-at="2015-08-19T16:03:11Z" finished-at="2015-08-19T16:03:11Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PageCheckSandOReport status=SUCCESS method=TestCase_PageCheckSandOReport.PageCheckSandOReport()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckSandOReport@6dbd984] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckSandOReport -->
+    </test> <!-- PageCheckSandOReport -->
+    <test name="PageCheckSummaryReport" duration-ms="64400" started-at="2015-08-19T10:33:11Z" finished-at="2015-08-19T10:34:15Z">
+      <class name="com.SuitePageCheck.TestCase_PageCheckSummaryReport">
+        <test-method status="PASS" signature="checkSuiteSkip()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckSummaryReport@140d59d0]" name="checkSuiteSkip" is-config="true" duration-ms="2" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="PASS" signature="checkTestSkip()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckSummaryReport@140d59d0]" name="checkTestSkip" is-config="true" duration-ms="2" started-at="2015-08-19T16:03:11Z" finished-at="2015-08-19T16:03:11Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="PASS" signature="PageCheckSummaryReport()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckSummaryReport@140d59d0]" name="PageCheckSummaryReport" duration-ms="64395" started-at="2015-08-19T16:03:11Z" finished-at="2015-08-19T16:04:15Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- PageCheckSummaryReport -->
+        <test-method status="PASS" signature="DefaultResutl(org.testng.ITestResult)[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckSummaryReport@140d59d0]" name="DefaultResutl" is-config="true" duration-ms="3" started-at="2015-08-19T16:04:15Z" finished-at="2015-08-19T16:04:15Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=PageCheckSummaryReport status=SUCCESS method=TestCase_PageCheckSummaryReport.PageCheckSummaryReport()[pri:0, instance:com.SuitePageCheck.TestCase_PageCheckSummaryReport@140d59d0] output={null}]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResutl -->
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckSummaryReport -->
+    </test> <!-- PageCheckSummaryReport -->
+  </suite> <!-- PageCheck Settings -->
+  <suite name="Categories" duration-ms="22" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="Verify Create Category" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteCategory.TestCase_VerifyCreateCategory">
+        <test-method status="SKIP" signature="verifyCreateCategoryTest()[pri:0, instance:com.suiteCategory.TestCase_VerifyCreateCategory@7adbe76f]" name="verifyCreateCategoryTest" duration-ms="1" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyCreateCategoryTest -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteCategory.TestCase_VerifyCreateCategory@7adbe76f]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteCategory.TestCase_VerifyCreateCategory@7adbe76f]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteCategory.TestCase_VerifyCreateCategory -->
+    </test> <!-- Verify Create Category -->
+    <test name="Verify Category Tab" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteCategory.TestCase_VerifyCategoryTab">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteCategory.TestCase_VerifyCategoryTab@48dd7c33]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyDefaultCategoryTest()[pri:0, instance:com.suiteCategory.TestCase_VerifyCategoryTab@48dd7c33]" name="verifyDefaultCategoryTest" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDefaultCategoryTest -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteCategory.TestCase_VerifyCategoryTab@48dd7c33]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteCategory.TestCase_VerifyCategoryTab -->
+    </test> <!-- Verify Category Tab -->
+    <test name="Verify Delete Category" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteCategory.TestCase_VerifyDeleteCategory">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteCategory.TestCase_VerifyDeleteCategory@7831a0d1]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyDeleteCategoryTest()[pri:0, instance:com.suiteCategory.TestCase_VerifyDeleteCategory@7831a0d1]" name="verifyDeleteCategoryTest" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyDeleteCategoryTest -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteCategory.TestCase_VerifyDeleteCategory@7831a0d1]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteCategory.TestCase_VerifyDeleteCategory -->
+    </test> <!-- Verify Delete Category -->
+    <test name="Verify Breadcrum And Heading" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteCategory.TestCase_BreadcrumAndHeading">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteCategory.TestCase_BreadcrumAndHeading@d029f4]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyBreadcrumAndHeading()[pri:0, instance:com.suiteCategory.TestCase_BreadcrumAndHeading@d029f4]" name="verifyBreadcrumAndHeading" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyBreadcrumAndHeading -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteCategory.TestCase_BreadcrumAndHeading@d029f4]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteCategory.TestCase_BreadcrumAndHeading -->
+    </test> <!-- Verify Breadcrum And Heading -->
+    <test name="Verify results export to CSV and Excel files" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteCategory.TestCase_ExportResults_Excel_CSV">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteCategory.TestCase_ExportResults_Excel_CSV@30b688e1]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyExportResults_Excel_CSV()[pri:0, instance:com.suiteCategory.TestCase_ExportResults_Excel_CSV@30b688e1]" name="verifyExportResults_Excel_CSV" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyExportResults_Excel_CSV -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteCategory.TestCase_ExportResults_Excel_CSV@30b688e1]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteCategory.TestCase_ExportResults_Excel_CSV -->
+    </test> <!-- Verify results export to CSV and Excel files -->
+    <test name="Check search and reset option under side bar grids" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteCategory.TestCase_FolderAndCategorySearch">
+        <test-method status="SKIP" signature="verifyFolderAndCategorySearch()[pri:0, instance:com.suiteCategory.TestCase_FolderAndCategorySearch@4e9ff7c0]" name="verifyFolderAndCategorySearch" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyFolderAndCategorySearch -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteCategory.TestCase_FolderAndCategorySearch@4e9ff7c0]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteCategory.TestCase_FolderAndCategorySearch@4e9ff7c0]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteCategory.TestCase_FolderAndCategorySearch -->
+      <class name="com.suiteCategory.CategorySuiteBase">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.suiteCategory.CategorySuiteBase@7653537c]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'CategoriesSuite' is set to 'NO', hence skipping all tests in Suite!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'CategoriesSuite' is set to 'NO', hence skipping all tests in Suite!
+	at Util.TestUtil.checkSuiteSkip(TestUtil.java:137)
+	at com.suiteCategory.CategorySuiteBase.checkSuiteSkip(CategorySuiteBase.java:14)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+      </class> <!-- com.suiteCategory.CategorySuiteBase -->
+    </test> <!-- Check search and reset option under side bar grids -->
+  </suite> <!-- Categories -->
+  <suite name="Course" duration-ms="21" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="CreateNewCourse" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteCourses.TestCase_CreateNewCourse">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCourses.TestCase_CreateNewCourse@18515783]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCourses.TestCase_CreateNewCourse@18515783]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CreateNewCourse()[pri:0, instance:com.SuiteCourses.TestCase_CreateNewCourse@18515783]" name="CreateNewCourse" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CreateNewCourse -->
+      </class> <!-- com.SuiteCourses.TestCase_CreateNewCourse -->
+    </test> <!-- CreateNewCourse -->
+    <test name="Edit_Course" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteCourses.TestCase_Edit_Course">
+        <test-method status="SKIP" signature="EditCourse()[pri:0, instance:com.SuiteCourses.TestCase_Edit_Course@6be05ef2]" name="EditCourse" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- EditCourse -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCourses.TestCase_Edit_Course@6be05ef2]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCourses.TestCase_Edit_Course@6be05ef2]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.SuiteCourses.TestCase_Edit_Course -->
+    </test> <!-- Edit_Course -->
+    <test name="AssignETToCourse" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteCourses.TestCase_AssignETToCourse">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCourses.TestCase_AssignETToCourse@5c78bca]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCourses.TestCase_AssignETToCourse@5c78bca]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="AssignETToCourse()[pri:0, instance:com.SuiteCourses.TestCase_AssignETToCourse@5c78bca]" name="AssignETToCourse" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- AssignETToCourse -->
+      </class> <!-- com.SuiteCourses.TestCase_AssignETToCourse -->
+    </test> <!-- AssignETToCourse -->
+    <test name="Search_NewlyCreatedCourse" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteCourses.TestCase_Search_NewlyCreatedCourse">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCourses.TestCase_Search_NewlyCreatedCourse@71f993c]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCourses.TestCase_Search_NewlyCreatedCourse@71f993c]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="SearchNewlyCreatedCourse()[pri:0, instance:com.SuiteCourses.TestCase_Search_NewlyCreatedCourse@71f993c]" name="SearchNewlyCreatedCourse" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SearchNewlyCreatedCourse -->
+      </class> <!-- com.SuiteCourses.TestCase_Search_NewlyCreatedCourse -->
+    </test> <!-- Search_NewlyCreatedCourse -->
+    <test name="CourseExport" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteCourses.TestCase_CourseExport">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCourses.TestCase_CourseExport@702a5cfd]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCourses.TestCase_CourseExport@702a5cfd]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="CourseExport()[pri:0, instance:com.SuiteCourses.TestCase_CourseExport@702a5cfd]" name="CourseExport" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CourseExport -->
+      </class> <!-- com.SuiteCourses.TestCase_CourseExport -->
+    </test> <!-- CourseExport -->
+    <test name="ExportCourseData" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.SuiteCourses.TestCase_ExportCourseData">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.SuiteCourses.TestCase_ExportCourseData@678aa6a7]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'CoursesSuite' is set to 'NO', hence skipping all tests in Suite!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'CoursesSuite' is set to 'NO', hence skipping all tests in Suite!
+	at Util.TestUtil.checkSuiteSkip(TestUtil.java:137)
+	at com.SuiteCourses.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+        <test-method status="SKIP" signature="ExportCourseData()[pri:0, instance:com.SuiteCourses.TestCase_ExportCourseData@678aa6a7]" name="ExportCourseData" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ExportCourseData -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCourses.TestCase_ExportCourseData@678aa6a7]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCourses.TestCase_ExportCourseData@678aa6a7]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteCourses.TestCase_ExportCourseData -->
+    </test> <!-- ExportCourseData -->
+  </suite> <!-- Course -->
+  <suite name="Common Test Cases" duration-ms="62" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="Check Questions Tab" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.SuiteCommon.TestCase_CheckQuestions">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCommon.TestCase_CheckQuestions@664bb5d8]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CheckQuestionsTab()[pri:0, instance:com.SuiteCommon.TestCase_CheckQuestions@664bb5d8]" name="CheckQuestionsTab" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckQuestionsTab -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCommon.TestCase_CheckQuestions@664bb5d8]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteCommon.TestCase_CheckQuestions -->
+    </test> <!-- Check Questions Tab -->
+    <test name="Check Rubrics Tab" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.SuiteCommon.TestCase_CheckRubrics">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCommon.TestCase_CheckRubrics@70c73be3]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CheckRubricsTab()[pri:0, instance:com.SuiteCommon.TestCase_CheckRubrics@70c73be3]" name="CheckRubricsTab" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckRubricsTab -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCommon.TestCase_CheckRubrics@70c73be3]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteCommon.TestCase_CheckRubrics -->
+    </test> <!-- Check Rubrics Tab -->
+    <test name="Check Assessments Tab" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.SuiteCommon.TestCase_CheckAssessments">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCommon.TestCase_CheckAssessments@2e0fadfa]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCommon.TestCase_CheckAssessments@2e0fadfa]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="CheckAssessmentsTab()[pri:0, instance:com.SuiteCommon.TestCase_CheckAssessments@2e0fadfa]" name="CheckAssessmentsTab" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAssessmentsTab -->
+      </class> <!-- com.SuiteCommon.TestCase_CheckAssessments -->
+    </test> <!-- Check Assessments Tab -->
+    <test name="Check Categories Tab" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.SuiteCommon.TestCase_CheckCategories">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCommon.TestCase_CheckCategories@53c8331b]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCommon.TestCase_CheckCategories@53c8331b]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CheckCategoriesTab()[pri:0, instance:com.SuiteCommon.TestCase_CheckCategories@53c8331b]" name="CheckCategoriesTab" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckCategoriesTab -->
+      </class> <!-- com.SuiteCommon.TestCase_CheckCategories -->
+    </test> <!-- Check Categories Tab -->
+    <test name="Check Reports Tab" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.SuiteCommon.TestCase_CheckReports">
+        <test-method status="SKIP" signature="CheckReportsTab()[pri:0, instance:com.SuiteCommon.TestCase_CheckReports@62bc1e7e]" name="CheckReportsTab" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckReportsTab -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCommon.TestCase_CheckReports@62bc1e7e]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCommon.TestCase_CheckReports@62bc1e7e]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteCommon.TestCase_CheckReports -->
+    </test> <!-- Check Reports Tab -->
+    <test name="Check Exam Takers Tab" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.SuiteCommon.TestCase_CheckExamTakers">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCommon.TestCase_CheckExamTakers@86b5f7b]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCommon.TestCase_CheckExamTakers@86b5f7b]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="CheckExamTakersTab()[pri:0, instance:com.SuiteCommon.TestCase_CheckExamTakers@86b5f7b]" name="CheckExamTakersTab" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckExamTakersTab -->
+      </class> <!-- com.SuiteCommon.TestCase_CheckExamTakers -->
+    </test> <!-- Check Exam Takers Tab -->
+    <test name="Check Admin Tab" duration-ms="0" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.SuiteCommon.TestCase_CheckAdmin">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCommon.TestCase_CheckAdmin@695b2fd8]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCommon.TestCase_CheckAdmin@695b2fd8]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CheckAdminTab()[pri:0, instance:com.SuiteCommon.TestCase_CheckAdmin@695b2fd8]" name="CheckAdminTab" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckAdminTab -->
+      </class> <!-- com.SuiteCommon.TestCase_CheckAdmin -->
+    </test> <!-- Check Admin Tab -->
+    <test name="Check Check Community link" duration-ms="1" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.SuiteCommon.TestCase_CheckCommunity">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCommon.TestCase_CheckCommunity@7da707a0]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCommon.TestCase_CheckCommunity@7da707a0]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="TestCaseCommunityLink()[pri:0, instance:com.SuiteCommon.TestCase_CheckCommunity@7da707a0]" name="TestCaseCommunityLink" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TestCaseCommunityLink -->
+      </class> <!-- com.SuiteCommon.TestCase_CheckCommunity -->
+    </test> <!-- Check Check Community link -->
+    <test name="Check Training Video" duration-ms="2" started-at="2015-08-19T10:29:24Z" finished-at="2015-08-19T10:29:24Z">
+      <class name="com.SuiteCommon.TestCase_CheckTrainingVideo">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.SuiteCommon.TestCase_CheckTrainingVideo@726b4082]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="CheckTrainingVideo()[pri:0, instance:com.SuiteCommon.TestCase_CheckTrainingVideo@726b4082]" name="CheckTrainingVideo" duration-ms="1" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- CheckTrainingVideo -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.SuiteCommon.TestCase_CheckTrainingVideo@726b4082]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.SuiteCommon.TestCase_CheckTrainingVideo -->
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.SuiteCommon.TestSuiteBase@1732781b]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:24Z" finished-at="2015-08-19T15:59:24Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'CommonSuite' is set to 'NO', hence skipping all tests in Suite!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'CommonSuite' is set to 'NO', hence skipping all tests in Suite!
+	at Util.TestUtil.checkSuiteSkip(TestUtil.java:137)
+	at com.SuiteCommon.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:12)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+    </test> <!-- Check Training Video -->
+  </suite> <!-- Common Test Cases -->
+  <suite name="Rubrics Test Cases" duration-ms="43" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    <groups>
+    </groups>
+    <test name="Check Runmode of Suite" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+    </test> <!-- Check Runmode of Suite -->
+    <test name="Create New Rubrics Folder" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_CreateNewRubricsFolder">
+        <test-method status="SKIP" signature="VerifyCreateNewRubricsFolder()[pri:0, instance:com.suiteRubrics.TestCase_CreateNewRubricsFolder@7c75b5b9]" name="VerifyCreateNewRubricsFolder" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateNewRubricsFolder -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_CreateNewRubricsFolder@7c75b5b9]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_CreateNewRubricsFolder@7c75b5b9]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteRubrics.TestCase_CreateNewRubricsFolder -->
+    </test> <!-- Create New Rubrics Folder -->
+    <test name="Create Points Based Rubric" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_CreatePointBasedRubric">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_CreatePointBasedRubric@3695de1a]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="VerifyCreatePointBasedRubric()[pri:0, instance:com.suiteRubrics.TestCase_CreatePointBasedRubric@3695de1a]" name="VerifyCreatePointBasedRubric" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreatePointBasedRubric -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_CreatePointBasedRubric@3695de1a]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteRubrics.TestCase_CreatePointBasedRubric -->
+    </test> <!-- Create Points Based Rubric -->
+    <test name="Create Scale Based Rubric" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_CreateScaleBasedRubric">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_CreateScaleBasedRubric@24b9371e]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="VerifyCreateScaleBasedRubric()[pri:0, instance:com.suiteRubrics.TestCase_CreateScaleBasedRubric@24b9371e]" name="VerifyCreateScaleBasedRubric" duration-ms="1" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyCreateScaleBasedRubric -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_CreateScaleBasedRubric@24b9371e]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteRubrics.TestCase_CreateScaleBasedRubric -->
+    </test> <!-- Create Scale Based Rubric -->
+    <test name="Save As Rubric Template" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_SaveAsRubricTemplate">
+        <test-method status="SKIP" signature="VerifySaveAsRubricTemplate()[pri:0, instance:com.suiteRubrics.TestCase_SaveAsRubricTemplate@2296c1d]" name="VerifySaveAsRubricTemplate" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySaveAsRubricTemplate -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_SaveAsRubricTemplate@2296c1d]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_SaveAsRubricTemplate@2296c1d]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteRubrics.TestCase_SaveAsRubricTemplate -->
+    </test> <!-- Save As Rubric Template -->
+    <test name="Save Rubric As A Template" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_SaveTemplateAsRubric">
+        <test-method status="SKIP" signature="VerifySaveTemplateAsRubric()[pri:0, instance:com.suiteRubrics.TestCase_SaveTemplateAsRubric@17965791]" name="VerifySaveTemplateAsRubric" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifySaveTemplateAsRubric -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_SaveTemplateAsRubric@17965791]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_SaveTemplateAsRubric@17965791]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteRubrics.TestCase_SaveTemplateAsRubric -->
+    </test> <!-- Save Rubric As A Template -->
+    <test name="Add Rubric Dimension and Level" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_AddDimensionAndLevel">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_AddDimensionAndLevel@685d62a4]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_AddDimensionAndLevel@685d62a4]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="VerifyAddDimensionAndLevel()[pri:0, instance:com.suiteRubrics.TestCase_AddDimensionAndLevel@685d62a4]" name="VerifyAddDimensionAndLevel" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyAddDimensionAndLevel -->
+      </class> <!-- com.suiteRubrics.TestCase_AddDimensionAndLevel -->
+    </test> <!-- Add Rubric Dimension and Level -->
+    <test name="Delete Rubric Dimension and Level" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_DeleteDimensionAndLevel">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_DeleteDimensionAndLevel@259f1b1d]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="VerifyDeleteDimensionAndLevel()[pri:0, instance:com.suiteRubrics.TestCase_DeleteDimensionAndLevel@259f1b1d]" name="VerifyDeleteDimensionAndLevel" duration-ms="1" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteDimensionAndLevel -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_DeleteDimensionAndLevel@259f1b1d]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteRubrics.TestCase_DeleteDimensionAndLevel -->
+    </test> <!-- Delete Rubric Dimension and Level -->
+    <test name="Edit Rubric" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_EditRubric">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_EditRubric@369f0df0]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="VerifyEditRubric()[pri:0, instance:com.suiteRubrics.TestCase_EditRubric@369f0df0]" name="VerifyEditRubric" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditRubric -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_EditRubric@369f0df0]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteRubrics.TestCase_EditRubric -->
+    </test> <!-- Edit Rubric -->
+    <test name="Delete A Rubric" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_DeleteRubric">
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_DeleteRubric@3830b652]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_DeleteRubric@3830b652]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="VerifyDeleteRubric()[pri:0, instance:com.suiteRubrics.TestCase_DeleteRubric@3830b652]" name="VerifyDeleteRubric" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteRubric -->
+      </class> <!-- com.suiteRubrics.TestCase_DeleteRubric -->
+    </test> <!-- Delete A Rubric -->
+    <test name="Share Rubric Folder" duration-ms="0" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_ShareRubricsFolder">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_ShareRubricsFolder@6c7a0a57]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="verifyShareRubricsFolderTest()[pri:0, instance:com.suiteRubrics.TestCase_ShareRubricsFolder@6c7a0a57]" name="verifyShareRubricsFolderTest" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- verifyShareRubricsFolderTest -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_ShareRubricsFolder@6c7a0a57]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteRubrics.TestCase_ShareRubricsFolder -->
+    </test> <!-- Share Rubric Folder -->
+    <test name="Edit Rubric Folder" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestCase_EditRubricsFolder">
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_EditRubricsFolder@7b8269b6]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+        <test-method status="SKIP" signature="VerifyEditRubricsFolder()[pri:0, instance:com.suiteRubrics.TestCase_EditRubricsFolder@7b8269b6]" name="VerifyEditRubricsFolder" duration-ms="1" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyEditRubricsFolder -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_EditRubricsFolder@7b8269b6]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+      </class> <!-- com.suiteRubrics.TestCase_EditRubricsFolder -->
+    </test> <!-- Edit Rubric Folder -->
+    <test name="Delete Rubric Folder" duration-ms="1" started-at="2015-08-19T10:29:25Z" finished-at="2015-08-19T10:29:25Z">
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <test-method status="SKIP" signature="checkSuiteSkip()[pri:0, instance:com.suiteRubrics.TestSuiteBase@38938070]" name="checkSuiteSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <exception class="org.testng.SkipException">
+            <message>
+              <![CDATA[Runmode of 'RubricsSuite' is set to 'NO', hence skipping all tests in Suite!]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.testng.SkipException: Runmode of 'RubricsSuite' is set to 'NO', hence skipping all tests in Suite!
+	at Util.TestUtil.checkSuiteSkip(TestUtil.java:137)
+	at com.suiteRubrics.TestSuiteBase.checkSuiteSkip(TestSuiteBase.java:11)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:84)
+	at org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:564)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:213)
+	at org.testng.internal.Invoker.invokeConfigurations(Invoker.java:138)
+	at org.testng.SuiteRunner.privateRun(SuiteRunner.java:277)
+	at org.testng.SuiteRunner.run(SuiteRunner.java:240)
+	at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+	at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:86)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1224)
+	at org.testng.TestNG.runSuitesSequentially(TestNG.java:1220)
+	at org.testng.TestNG.runSuitesLocally(TestNG.java:1149)
+	at org.testng.TestNG.run(TestNG.java:1057)
+	at org.testng.TestNG.privateMain(TestNG.java:1364)
+	at org.testng.TestNG.main(TestNG.java:1333)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.testng.SkipException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkSuiteSkip -->
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+      <class name="com.suiteRubrics.TestCase_DeleteRubricFolder">
+        <test-method status="SKIP" signature="VerifyDeleteRubricFolder()[pri:0, instance:com.suiteRubrics.TestCase_DeleteRubricFolder@67099f71]" name="VerifyDeleteRubricFolder" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- VerifyDeleteRubricFolder -->
+        <test-method status="SKIP" signature="DefaultResult(org.testng.ITestResult)[pri:0, instance:com.suiteRubrics.TestCase_DeleteRubricFolder@67099f71]" name="DefaultResult" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DefaultResult -->
+        <test-method status="SKIP" signature="checkTestSkip()[pri:0, instance:com.suiteRubrics.TestCase_DeleteRubricFolder@67099f71]" name="checkTestSkip" is-config="true" duration-ms="0" started-at="2015-08-19T15:59:25Z" finished-at="2015-08-19T15:59:25Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- checkTestSkip -->
+      </class> <!-- com.suiteRubrics.TestCase_DeleteRubricFolder -->
+    </test> <!-- Delete Rubric Folder -->
+  </suite> <!-- Rubrics Test Cases -->
+</testng-results>

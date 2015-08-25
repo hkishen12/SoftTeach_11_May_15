@@ -1,0 +1,206 @@
+<suite name="Questions">
+
+	<test name="Check Runmode of Suite">
+		<classes>
+			<class name="com.suiteQuestions.QuestionSuiteBase"></class>
+		</classes>
+	</test>
+	<test name="Verify CreateQSLinks Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_CreateQSLinks"></class>
+		</classes>
+	</test>
+	<test name="Verify DefaultQSbyFolder Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_DefaultQSbyFolder"></class>
+		</classes>
+	</test>
+	<test name="Verify CreateFolder Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_CreateFolder"></class>
+		</classes>
+	</test>
+	<test name="Verify Create New Category Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_CreateNewCategory"></class>
+		</classes>
+	</test>
+	<test name="Verify Create MC Questions Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_CreateMCQuestions"></class>
+		</classes>
+	</test>
+	<test name="Verify Create TrueFalse Questions Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_CreateTFQuestions"></class>
+		</classes>
+	</test>
+	<test name="Verify Create Essay Questions Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_CreateEassyQuestions"></class>
+		</classes>
+	</test>
+	<test name="Verify Create FITB Questions Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_CreateFITBQuestions"></class>
+		</classes>
+	</test>
+	<test name="Verify SelectCategoryFolder Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_SelectCategoryFolder"></class>
+		</classes>
+	</test>
+	<test name="Verify Search By Id Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_SearchQuestionsById"></class>
+		</classes>
+	</test>
+	<test name="Verify Search By Name Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_SearchQuestionsByName"></class>
+		</classes>
+	</test>
+
+	<test name="Verify SelectAnyFolder Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_SelectAnyFolder"></class>
+
+		</classes>
+	</test>
+
+	<test name="Verify Bulk Approve Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_CreateBulkApproveQuestions"></class>
+		</classes>
+	</test>
+
+	<test name="Verify Delete Questions in Folder Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_DeleteQSInFolder"></class>
+		</classes>
+	</test>
+
+	<test name="Verify Import RTF format Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_ImportQuestionsRFTFormat"></class>
+		</classes>
+	</test>
+	<test name="Verify Import Tab Seperated format Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_ImportQuestionsTabSeperated"></class>
+		</classes>
+	</test>
+	<test name="Verify Question used by Exam should not be deleted">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_DeleteQSUsedByExam"></class>
+		</classes>
+	</test>
+
+	<test name="Verify Share Folder Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_ShareFolder"></class>
+		</classes>
+	</test>
+
+	<test name="Verify QSbyCategories Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_QSbyCategories"></class>
+		</classes>
+	</test>
+
+
+	<test name="Verify EditFolder Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_EditFolder"></class>
+		</classes>
+	</test>
+
+	<test name="Verify DeleteFolder Test Case">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_DeleteFolder"></class>
+		</classes>
+	</test>
+
+	<test name="Verify Question's page breadcrum and heading">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_BreadcrumAndHeading"></class>
+		</classes>
+	</test>
+	<test name="Check search and reset option under side bar grids">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_FolderAndCategorySearch"></class>
+		</classes>
+	</test>
+	
+	<test name="Check Folder question count on LHS and RHS grids">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_FolderQuestionCount_LHS_RHS_Grid"></class>
+		</classes>
+	</test>
+	
+	<test name="Verify 'Community' and 'Help Guide' links are appearing and their corressponding popups are opening or not.">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_Community_HelpGuide_Links"></class>
+		</classes>
+	</test>
+	
+	<test name="Verify user is able to export grid results to excel and CSV files.">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_ExportResults_Excel_CSV"></class>
+		</classes>
+	</test>
+	
+	<test name="Verify whether Expand/Shrink Results link is working properly.">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_ExpandShrinkResultsLink"></class>
+		</classes>
+	</test>
+	<test name="Check user is able to duplicate bulk selected questions to a particular folder.">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_BulkDuplicate"></class>
+		</classes>
+	</test>
+	
+	<test name="Check user is able to move questions to another folder for bulk selected questions from question listing grid.">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_BulkMoveToAnotherFolder"></class>
+		</classes>
+	</test>
+	
+	<test name="Check user is able to remove bulk selected questions which are not used in any assignments from question listing grid.">
+		<classes>
+
+			<class name="com.suiteQuestions.TestCase_BulkRemoveItems"></class>
+		</classes>
+	</test>
+</suite>
+

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Login]">
+  <test name="ET Lost Username and Password(failed)">
+    <classes>
+      <class name="com.suiteLogin.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteLogin.TestSuiteBase -->
+      <class name="com.suiteLogin.TestCase_Login">
+        <methods>
+          <include name="DefaultResult"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.suiteLogin.TestCase_Login -->
+      <class name="com.suiteLogin.TestCase_ETLostUserIDPassword">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="TestCaseETLostUserIDPassword"/>
+        </methods>
+      </class> <!-- com.suiteLogin.TestCase_ETLostUserIDPassword -->
+    </classes>
+  </test> <!-- ET Lost Username and Password(failed) -->
+</suite> <!-- Failed suite [Login] -->

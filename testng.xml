@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="SofTeach">
+	<suite-files>
+		<suite-file path="./Suite_Login.xml" />
+		<suite-file path="./Suite_Common.xml" />
+		<suite-file path="./Suite_Questions.xml" />
+		<suite-file path="./Suite_Rubrics.xml" />
+		<suite-file path="./Suite_Assessments.xml" />
+		<suite-file path="./Suite_Category.xml" />
+		<suite-file path="./Suite_Users.xml" />
+		<suite-file path="./Suite_Course.xml" />
+		<suite-file path="./Suite_ExamTaker.xml" />
+		<suite-file path="./Suite_Reports.xml" />
+		<suite-file path="./Suite_PageCheck.xml" />
+		<suite-file path="./Suite_Logout.xml" />
+	</suite-files>
+</suite> 
+

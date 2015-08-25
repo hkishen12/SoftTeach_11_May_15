@@ -1,0 +1,25 @@
+
+<suite name="Login">
+
+	<test name="Check Runmode of Suite">
+		<classes>
+			<class name="com.suiteLogin.TestSuiteBase"></class>
+		</classes>
+	</test>
+	<test name="ET Lost Username and Password">
+		<classes>
+
+			<class name="com.suiteLogin.TestCase_ETLostUserIDPassword"></class>
+		</classes>
+	</test>
+	
+
+	<test name="Login Test Case">
+		<classes>
+
+			<class name="com.suiteLogin.TestCase_Login"></class>
+		</classes>
+	</test>
+
+</suite>
+

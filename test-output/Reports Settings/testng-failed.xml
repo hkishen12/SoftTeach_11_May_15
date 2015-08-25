@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Reports Settings]">
+  <test name="CheckETResults(failed)">
+    <classes>
+      <class name="com.SuiteReports.TestCase_CheckETResults">
+        <methods>
+          <include name="CheckETResults"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckETResults -->
+      <class name="com.SuiteReports.TestCase_CheckCategoryReports">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckCategoryReports -->
+    </classes>
+  </test> <!-- CheckETResults(failed) -->
+  <test name="CheckSummaryReports(failed)">
+    <classes>
+      <class name="com.SuiteReports.TestCase_CheckCategoryReports">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckCategoryReports -->
+      <class name="com.SuiteReports.TestCase_CheckSummaryReport">
+        <methods>
+          <include name="CheckSummaryReports"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckSummaryReport -->
+    </classes>
+  </test> <!-- CheckSummaryReports(failed) -->
+  <test name="CheckReleaseETResults(failed)">
+    <classes>
+      <class name="com.SuiteReports.TestCase_CheckReleaseETResults">
+        <methods>
+          <include name="CheckReleaseResults"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckReleaseETResults -->
+      <class name="com.SuiteReports.TestCase_CheckCategoryReports">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckCategoryReports -->
+    </classes>
+  </test> <!-- CheckReleaseETResults(failed) -->
+  <test name="CheckReleaseETResultsSendEmail(failed)">
+    <classes>
+      <class name="com.SuiteReports.TestCase_CheckCategoryReports">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckCategoryReports -->
+      <class name="com.SuiteReports.TestCase_CheckReleaseETResults_PostEmail">
+        <methods>
+          <include name="CheckReleaseETResultsPostEmail"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckReleaseETResults_PostEmail -->
+    </classes>
+  </test> <!-- CheckReleaseETResultsSendEmail(failed) -->
+  <test name="SandOReports(failed)">
+    <classes>
+      <class name="com.SuiteReports.TestCase_CheckSandOReports">
+        <methods>
+          <include name="CheckSNOReports"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckSandOReports -->
+      <class name="com.SuiteReports.TestCase_CheckCategoryReports">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckCategoryReports -->
+    </classes>
+  </test> <!-- SandOReports(failed) -->
+  <test name="CategoryReports(failed)">
+    <classes>
+      <class name="com.SuiteReports.TestCase_CheckCategoryReports">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="CheckCategoryReports"/>
+        </methods>
+      </class> <!-- com.SuiteReports.TestCase_CheckCategoryReports -->
+    </classes>
+  </test> <!-- CategoryReports(failed) -->
+</suite> <!-- Failed suite [Reports Settings] -->

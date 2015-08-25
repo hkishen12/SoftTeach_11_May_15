@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [PageCheck Settings]">
+  <test name="PageCheckSummaryReport(failed)">
+    <classes>
+      <class name="com.SuitePageCheck.TestCase_PageCheckSummaryReport">
+        <methods>
+          <include name="DefaultResutl"/>
+          <include name="checkTestSkip"/>
+          <include name="checkSuiteSkip"/>
+          <include name="CheckCheckReleaseResult"/>
+        </methods>
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckSummaryReport -->
+      <class name="com.SuitePageCheck.TestCase_PageCheckSandOReport">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="DefaultResutl"/>
+        </methods>
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckSandOReport -->
+      <class name="com.SuitePageCheck.TestCase_PageCheckReleaseResult">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="DefaultResutl"/>
+        </methods>
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckReleaseResult -->
+      <class name="com.SuitePageCheck.TestCase_PageCheckETReports">
+        <methods>
+          <include name="DefaultResutl"/>
+          <include name="checkTestSkip"/>
+        </methods>
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckETReports -->
+      <class name="com.SuitePageCheck.TestCase_PageCheckCategoryReports">
+        <methods>
+          <include name="checkTestSkip"/>
+          <include name="DefaultResutl"/>
+        </methods>
+      </class> <!-- com.SuitePageCheck.TestCase_PageCheckCategoryReports -->
+    </classes>
+  </test> <!-- PageCheckSummaryReport(failed) -->
+</suite> <!-- Failed suite [PageCheck Settings] -->

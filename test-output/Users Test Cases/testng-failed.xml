@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Users Test Cases]">
+  <test name="Create New User(failed)">
+    <classes>
+      <class name="com.suiteUsers.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestSuiteBase -->
+      <class name="com.suiteUsers.TestCase_CreateUser">
+        <methods>
+          <include name="verifyCreateUser"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestCase_CreateUser -->
+    </classes>
+  </test> <!-- Create New User(failed) -->
+  <test name="Create a Restricted User(failed)">
+    <classes>
+      <class name="com.suiteUsers.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestSuiteBase -->
+      <class name="com.suiteUsers.TestCase_CreateRestrictedUser">
+        <methods>
+          <include name="verifyCreateRestrictedUser"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestCase_CreateRestrictedUser -->
+    </classes>
+  </test> <!-- Create a Restricted User(failed) -->
+  <test name="Check Include grader only account search(failed)">
+    <classes>
+      <class name="com.suiteUsers.TestCase_IncludeGraderOnlyAccountsCheck">
+        <methods>
+          <include name="verifyIncludeGraderOnlyAccountsCheck"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestCase_IncludeGraderOnlyAccountsCheck -->
+      <class name="com.suiteUsers.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestSuiteBase -->
+    </classes>
+  </test> <!-- Check Include grader only account search(failed) -->
+  <test name="Email a User(failed)">
+    <classes>
+      <class name="com.suiteUsers.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestSuiteBase -->
+      <class name="com.suiteUsers.TestCase_EmailUser">
+        <methods>
+          <include name="verifyEmailUser"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestCase_EmailUser -->
+    </classes>
+  </test> <!-- Email a User(failed) -->
+  <test name="Edit a User(failed)">
+    <classes>
+      <class name="com.suiteUsers.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestSuiteBase -->
+      <class name="com.suiteUsers.TestCase_EditUser">
+        <methods>
+          <include name="verifyEditUser"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestCase_EditUser -->
+    </classes>
+  </test> <!-- Edit a User(failed) -->
+  <test name="Delete a User(failed)">
+    <classes>
+      <class name="com.suiteUsers.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestSuiteBase -->
+      <class name="com.suiteUsers.TestCase_DeleteUser">
+        <methods>
+          <include name="verifyDeleteUser"/>
+        </methods>
+      </class> <!-- com.suiteUsers.TestCase_DeleteUser -->
+    </classes>
+  </test> <!-- Delete a User(failed) -->
+</suite> <!-- Failed suite [Users Test Cases] -->

@@ -1,0 +1,4 @@
+
+	Automation Import Multiple Choice Question	MC	What is your favorite Car?	ODDI	Suzuki	Honda	Yamaha							C			Automation	AutomationGroup	Yes	DRAFT	
+	Automation Import True/False Question	TF	Is ODDI your favorite Car?	TRUE	FALSE									B			Automation	AutomationGroup	Y	DRAFT	
+	Automation Essay Question	E	Write a Essay on your favorite Car.														Automation	AutomationGroup		DRAFT	

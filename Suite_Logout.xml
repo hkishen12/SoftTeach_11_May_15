@@ -1,0 +1,19 @@
+
+<suite name="Logout">
+
+	<test name="Check Runmode of Suite">
+		<classes>
+			<class name="com.suiteLogout.TestSuiteBase"></class>
+		</classes>
+	</test>
+
+
+	<test name="Logout Test Case">
+		<classes>
+
+			<class name="com.suiteLogout.TestCase_Logout"></class>
+		</classes>
+	</test>
+
+</suite>
+

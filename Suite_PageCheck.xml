@@ -1,0 +1,47 @@
+
+<suite name="PageCheck Settings">
+	<test name="Check Runmode of Suite">
+		<classes>
+
+			<class name="com.SuitePageCheck.TestSuiteBase"></class>
+		</classes>
+	</test>
+
+	
+	<test name="PageCheckCategoryReport">
+		<classes>
+
+			<class name="com.SuitePageCheck.TestCase_PageCheckCategoryReports"></class>
+		</classes>
+	</test>
+	
+	<test name="PageCheckETReport">
+		<classes>
+
+			<class name="com.SuitePageCheck.TestCase_PageCheckETReports"></class>
+		</classes>
+	</test>
+	
+	<test name="PageCheckReleaseResult">
+		<classes>
+
+			<class name="com.SuitePageCheck.TestCase_PageCheckReleaseResult"></class>
+		</classes>
+	</test>
+	
+	<test name="PageCheckSandOReport">
+		<classes>
+
+			<class name="com.SuitePageCheck.TestCase_PageCheckSandOReport"></class>
+		</classes>
+	</test>
+	
+	<test name="PageCheckSummaryReport">
+		<classes>
+
+			<class name="com.SuitePageCheck.TestCase_PageCheckSummaryReport"></class>
+		</classes>
+	</test>
+
+	
+</suite>

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Categories]">
+  <test name="Verify Create Category(failed)">
+    <classes>
+      <class name="com.suiteCategory.CategorySuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteCategory.CategorySuiteBase -->
+      <class name="com.suiteCategory.TestCase_VerifyCreateCategory">
+        <methods>
+          <include name="verifyCreateCategoryTest"/>
+        </methods>
+      </class> <!-- com.suiteCategory.TestCase_VerifyCreateCategory -->
+    </classes>
+  </test> <!-- Verify Create Category(failed) -->
+  <test name="Verify Category Tab(failed)">
+    <classes>
+      <class name="com.suiteCategory.CategorySuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteCategory.CategorySuiteBase -->
+      <class name="com.suiteCategory.TestCase_VerifyCategoryTab">
+        <methods>
+          <include name="verifyDefaultCategoryTest"/>
+        </methods>
+      </class> <!-- com.suiteCategory.TestCase_VerifyCategoryTab -->
+    </classes>
+  </test> <!-- Verify Category Tab(failed) -->
+  <test name="Verify Delete Category(failed)">
+    <classes>
+      <class name="com.suiteCategory.CategorySuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteCategory.CategorySuiteBase -->
+      <class name="com.suiteCategory.TestCase_VerifyDeleteCategory">
+        <methods>
+          <include name="verifyDeleteCategoryTest"/>
+        </methods>
+      </class> <!-- com.suiteCategory.TestCase_VerifyDeleteCategory -->
+    </classes>
+  </test> <!-- Verify Delete Category(failed) -->
+  <test name="Verify Breadcrum And Heading(failed)">
+    <classes>
+      <class name="com.suiteCategory.CategorySuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteCategory.CategorySuiteBase -->
+      <class name="com.suiteCategory.TestCase_BreadcrumAndHeading">
+        <methods>
+          <include name="verifyBreadcrumAndHeading"/>
+        </methods>
+      </class> <!-- com.suiteCategory.TestCase_BreadcrumAndHeading -->
+    </classes>
+  </test> <!-- Verify Breadcrum And Heading(failed) -->
+  <test name="Verify results export to CSV and Excel files(failed)">
+    <classes>
+      <class name="com.suiteCategory.CategorySuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteCategory.CategorySuiteBase -->
+      <class name="com.suiteCategory.TestCase_ExportResults_Excel_CSV">
+        <methods>
+          <include name="verifyExportResults_Excel_CSV"/>
+        </methods>
+      </class> <!-- com.suiteCategory.TestCase_ExportResults_Excel_CSV -->
+    </classes>
+  </test> <!-- Verify results export to CSV and Excel files(failed) -->
+  <test name="Check search and reset option under side bar grids(failed)">
+    <classes>
+      <class name="com.suiteCategory.CategorySuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteCategory.CategorySuiteBase -->
+      <class name="com.suiteCategory.TestCase_FolderAndCategorySearch">
+        <methods>
+          <include name="verifyFolderAndCategorySearch"/>
+        </methods>
+      </class> <!-- com.suiteCategory.TestCase_FolderAndCategorySearch -->
+    </classes>
+  </test> <!-- Check search and reset option under side bar grids(failed) -->
+</suite> <!-- Failed suite [Categories] -->

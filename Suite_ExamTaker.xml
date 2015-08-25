@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<suite name="ExamTaker">
+
+	<test name="Check Runmode of ExamTakerSuite">
+		<classes>
+			<class name="com.SuiteExamTaker.TestSuiteBase" />
+
+		</classes>
+	</test>
+
+	<test name="ExamTaker-CreateExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_CreateExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-CancelCreateExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_CancelCreateExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-VerifyErrorMsg1_CreateExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg1_CreateExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-VerifyErrorMsg2_CreateExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg2_CreateExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-VerifyErrorMsg3_CreateExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg3_CreateExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-VerifyErrorMsg4_CreateExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg4_CreateExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-VerifyErrorMsg5_CreateExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_VerifyErrorMsg5_CreateExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-SearchExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_SearchExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-EditExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_EditExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-EmailExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_EmailExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-DeleteExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_DeleteExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-ExamTakerHistory">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_ExamTakerHistory" />
+		</classes>
+	</test>
+	<test name="ExamTaker-BULKDeleteExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_BULKDeleteExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-BULKEditExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_BULKEditExamTaker" />
+		</classes>
+	</test>
+	<test name="ExamTaker-AdvanceSearchExamTaker">
+		<classes>
+
+			<class name="com.SuiteExamTaker.TestCase_AdvanceSearchExamTaker" />
+		</classes>
+	</test>
+
+</suite>
+

@@ -1,0 +1,238 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Assessments Test Cases]">
+  <test name="New Assessment Custom Notice(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentCustomNotice">
+        <methods>
+          <include name="NewAssessmentCustomNotice"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentCustomNotice -->
+    </classes>
+  </test> <!-- New Assessment Custom Notice(failed) -->
+  <test name="New Assessment Notice Template(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentNoticeTemplate">
+        <methods>
+          <include name="NewAssessmentNoticeTemplate"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentNoticeTemplate -->
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+    </classes>
+  </test> <!-- New Assessment Notice Template(failed) -->
+  <test name="New Assessment Add Questions(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentAddQuestions">
+        <methods>
+          <include name="NewAssessmentAddQuestions"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentAddQuestions -->
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+    </classes>
+  </test> <!-- New Assessment Add Questions(failed) -->
+  <test name="Most Recent Revised Assessment(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_MostReceRevisedAssessment">
+        <methods>
+          <include name="MostReceRevisedAssessment"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_MostReceRevisedAssessment -->
+    </classes>
+  </test> <!-- Most Recent Revised Assessment(failed) -->
+  <test name="New Assessment Saveas Draft(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentsaveasDraft">
+        <methods>
+          <include name="NewAssessmentsaveasDraft"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentsaveasDraft -->
+    </classes>
+  </test> <!-- New Assessment Saveas Draft(failed) -->
+  <test name="Edit Assessment Export Print(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_EditAssessmentExportPrint">
+        <methods>
+          <include name="EditAssessmentExportPrint"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_EditAssessmentExportPrint -->
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+    </classes>
+  </test> <!-- Edit Assessment Export Print(failed) -->
+  <test name="Edit Assessment Preview (failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_EditAssessmentPreview">
+        <methods>
+          <include name="EditAssessmentPreview"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_EditAssessmentPreview -->
+    </classes>
+  </test> <!-- Edit Assessment Preview (failed) -->
+  <test name="Post Assessment (failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_PostAssessment">
+        <methods>
+          <include name="PostAssessment"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_PostAssessment -->
+    </classes>
+  </test> <!-- Post Assessment (failed) -->
+  <test name="Post Assessment Preview (failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_PostAssessmentPreview">
+        <methods>
+          <include name="PostAssessmentPreview"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_PostAssessmentPreview -->
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+    </classes>
+  </test> <!-- Post Assessment Preview (failed) -->
+  <test name="multiple post(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_multiplepost">
+        <methods>
+          <include name="multiplepost"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_multiplepost -->
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+    </classes>
+  </test> <!-- multiple post(failed) -->
+  <test name="Unpostposting(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_Unpostposting">
+        <methods>
+          <include name="Unpostposting"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_Unpostposting -->
+    </classes>
+  </test> <!-- Unpostposting(failed) -->
+  <test name="Duplicate posting(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_Duplicateposting">
+        <methods>
+          <include name="Duplicateposting"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_Duplicateposting -->
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+    </classes>
+  </test> <!-- Duplicate posting(failed) -->
+  <test name="Retire posting(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_Retireposting">
+        <methods>
+          <include name="PostAssessment"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_Retireposting -->
+    </classes>
+  </test> <!-- Retire posting(failed) -->
+  <test name="Create New folder(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_NewAssessmentfolder">
+        <methods>
+          <include name="newAssessmentfolder"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_NewAssessmentfolder -->
+    </classes>
+  </test> <!-- Create New folder(failed) -->
+  <test name="Edit created assessment folder(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_EditAssessmentfolder">
+        <methods>
+          <include name="editAssessmentfolder"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_EditAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+    </classes>
+  </test> <!-- Edit created assessment folder(failed) -->
+  <test name="Share created assessment folder(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+      <class name="com.SuiteAssessments.TestCase_ShareAssessmentfolder">
+        <methods>
+          <include name="shareAssessmentfolder"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_ShareAssessmentfolder -->
+    </classes>
+  </test> <!-- Share created assessment folder(failed) -->
+  <test name="Delete Created folder(failed)">
+    <classes>
+      <class name="com.SuiteAssessments.TestCase_DeleteAssessmentfolder">
+        <methods>
+          <include name="deleteAssessmentfolder"/>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteAssessments.TestCase_DeleteAssessmentfolder -->
+    </classes>
+  </test> <!-- Delete Created folder(failed) -->
+</suite> <!-- Failed suite [Assessments Test Cases] -->

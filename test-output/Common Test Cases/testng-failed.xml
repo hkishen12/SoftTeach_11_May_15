@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Common Test Cases]">
+  <test name="Check Questions Tab(failed)">
+    <classes>
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+      <class name="com.SuiteCommon.TestCase_CheckQuestions">
+        <methods>
+          <include name="CheckQuestionsTab"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestCase_CheckQuestions -->
+    </classes>
+  </test> <!-- Check Questions Tab(failed) -->
+  <test name="Check Rubrics Tab(failed)">
+    <classes>
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+      <class name="com.SuiteCommon.TestCase_CheckRubrics">
+        <methods>
+          <include name="CheckRubricsTab"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestCase_CheckRubrics -->
+    </classes>
+  </test> <!-- Check Rubrics Tab(failed) -->
+  <test name="Check Assessments Tab(failed)">
+    <classes>
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+      <class name="com.SuiteCommon.TestCase_CheckAssessments">
+        <methods>
+          <include name="CheckAssessmentsTab"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestCase_CheckAssessments -->
+    </classes>
+  </test> <!-- Check Assessments Tab(failed) -->
+  <test name="Check Categories Tab(failed)">
+    <classes>
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+      <class name="com.SuiteCommon.TestCase_CheckCategories">
+        <methods>
+          <include name="CheckCategoriesTab"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestCase_CheckCategories -->
+    </classes>
+  </test> <!-- Check Categories Tab(failed) -->
+  <test name="Check Reports Tab(failed)">
+    <classes>
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+      <class name="com.SuiteCommon.TestCase_CheckReports">
+        <methods>
+          <include name="CheckReportsTab"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestCase_CheckReports -->
+    </classes>
+  </test> <!-- Check Reports Tab(failed) -->
+  <test name="Check Exam Takers Tab(failed)">
+    <classes>
+      <class name="com.SuiteCommon.TestCase_CheckExamTakers">
+        <methods>
+          <include name="CheckExamTakersTab"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestCase_CheckExamTakers -->
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+    </classes>
+  </test> <!-- Check Exam Takers Tab(failed) -->
+  <test name="Check Admin Tab(failed)">
+    <classes>
+      <class name="com.SuiteCommon.TestCase_CheckAdmin">
+        <methods>
+          <include name="CheckAdminTab"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestCase_CheckAdmin -->
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+    </classes>
+  </test> <!-- Check Admin Tab(failed) -->
+  <test name="Check Check Community link(failed)">
+    <classes>
+      <class name="com.SuiteCommon.TestCase_CheckCommunity">
+        <methods>
+          <include name="TestCaseCommunityLink"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestCase_CheckCommunity -->
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+    </classes>
+  </test> <!-- Check Check Community link(failed) -->
+  <test name="Check Training Video(failed)">
+    <classes>
+      <class name="com.SuiteCommon.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestSuiteBase -->
+      <class name="com.SuiteCommon.TestCase_CheckTrainingVideo">
+        <methods>
+          <include name="CheckTrainingVideo"/>
+        </methods>
+      </class> <!-- com.SuiteCommon.TestCase_CheckTrainingVideo -->
+    </classes>
+  </test> <!-- Check Training Video(failed) -->
+</suite> <!-- Failed suite [Common Test Cases] -->

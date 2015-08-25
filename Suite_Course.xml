@@ -1,0 +1,54 @@
+
+<suite name="Course">
+	<test name="Check Runmode of Suite">
+		<classes>
+
+			<class name="com.SuiteCourses.TestSuiteBase"></class>
+		</classes>
+	</test>
+
+	<test name="CreateNewCourse">
+		<classes>
+
+			<class name="com.SuiteCourses.TestCase_CreateNewCourse"></class>
+		</classes>
+	</test>
+
+	<test name="Edit_Course">
+		<classes>
+
+			<class name="com.SuiteCourses.TestCase_Edit_Course"></class>
+		</classes>
+	</test>
+
+	<test name="AssignETToCourse">
+		<classes>
+
+			<class name="com.SuiteCourses.TestCase_AssignETToCourse"></class>
+		</classes>
+	</test>
+
+	<test name="Search_NewlyCreatedCourse">
+		<classes>
+
+			<class name="com.SuiteCourses.TestCase_Search_NewlyCreatedCourse"></class>
+		</classes>
+	</test>
+
+	<test name="CourseExport">
+		<classes>
+
+			<class name="com.SuiteCourses.TestCase_CourseExport"></class>
+		</classes>
+	</test>
+
+	<test name="ExportCourseData">
+		<classes>
+
+			<class name="com.SuiteCourses.TestCase_ExportCourseData"></class>
+		</classes>
+	</test>
+
+
+</suite>
+

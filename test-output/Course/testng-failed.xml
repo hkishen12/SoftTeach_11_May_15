@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Course]">
+  <test name="CreateNewCourse(failed)">
+    <classes>
+      <class name="com.SuiteCourses.TestCase_ExportCourseData">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_ExportCourseData -->
+      <class name="com.SuiteCourses.TestCase_CreateNewCourse">
+        <methods>
+          <include name="CreateNewCourse"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_CreateNewCourse -->
+    </classes>
+  </test> <!-- CreateNewCourse(failed) -->
+  <test name="Edit_Course(failed)">
+    <classes>
+      <class name="com.SuiteCourses.TestCase_ExportCourseData">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_ExportCourseData -->
+      <class name="com.SuiteCourses.TestCase_Edit_Course">
+        <methods>
+          <include name="EditCourse"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_Edit_Course -->
+    </classes>
+  </test> <!-- Edit_Course(failed) -->
+  <test name="AssignETToCourse(failed)">
+    <classes>
+      <class name="com.SuiteCourses.TestCase_ExportCourseData">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_ExportCourseData -->
+      <class name="com.SuiteCourses.TestCase_AssignETToCourse">
+        <methods>
+          <include name="AssignETToCourse"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_AssignETToCourse -->
+    </classes>
+  </test> <!-- AssignETToCourse(failed) -->
+  <test name="Search_NewlyCreatedCourse(failed)">
+    <classes>
+      <class name="com.SuiteCourses.TestCase_ExportCourseData">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_ExportCourseData -->
+      <class name="com.SuiteCourses.TestCase_Search_NewlyCreatedCourse">
+        <methods>
+          <include name="SearchNewlyCreatedCourse"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_Search_NewlyCreatedCourse -->
+    </classes>
+  </test> <!-- Search_NewlyCreatedCourse(failed) -->
+  <test name="CourseExport(failed)">
+    <classes>
+      <class name="com.SuiteCourses.TestCase_ExportCourseData">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_ExportCourseData -->
+      <class name="com.SuiteCourses.TestCase_CourseExport">
+        <methods>
+          <include name="CourseExport"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_CourseExport -->
+    </classes>
+  </test> <!-- CourseExport(failed) -->
+  <test name="ExportCourseData(failed)">
+    <classes>
+      <class name="com.SuiteCourses.TestCase_ExportCourseData">
+        <methods>
+          <include name="checkSuiteSkip"/>
+          <include name="ExportCourseData"/>
+        </methods>
+      </class> <!-- com.SuiteCourses.TestCase_ExportCourseData -->
+    </classes>
+  </test> <!-- ExportCourseData(failed) -->
+</suite> <!-- Failed suite [Course] -->

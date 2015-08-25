@@ -1,0 +1,56 @@
+
+<suite name="Categories">
+
+	<test name="Check Runmode of Suite">
+		<classes>
+			<class name="com.suiteCategory.CategorySuiteBase"></class>
+
+		</classes>
+	</test>
+	<test name="Verify Create Category">
+		<classes>
+
+			<class name="com.suiteCategory.TestCase_VerifyCreateCategory"></class>
+
+		</classes>
+	</test>
+
+	<test name="Verify Category Tab">
+		<classes>
+
+			<class name="com.suiteCategory.TestCase_VerifyCategoryTab"></class>
+
+		</classes>
+	</test>
+	<test name="Verify Delete Category">
+		<classes>
+
+			<class name="com.suiteCategory.TestCase_VerifyDeleteCategory"></class>
+
+		</classes>
+	</test>
+
+	<test name="Verify Breadcrum And Heading">
+		<classes>
+
+			<class name="com.suiteCategory.TestCase_BreadcrumAndHeading"></class>
+
+		</classes>
+	</test>
+
+	<test name="Verify results export to CSV and Excel files">
+		<classes>
+
+			<class name="com.suiteCategory.TestCase_ExportResults_Excel_CSV"></class>
+
+		</classes>
+
+		<test name="Check search and reset option under side bar grids">
+			<classes>
+
+				<class name="com.suiteCategory.TestCase_FolderAndCategorySearch"></class>
+			</classes>
+		</test>
+	</test>
+</suite>
+

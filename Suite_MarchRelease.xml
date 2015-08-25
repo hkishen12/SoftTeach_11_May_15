@@ -1,0 +1,233 @@
+<suite name="March Release Test Cases">
+
+	<test name="Test Suite Runmode Check ">
+		<classes>
+			<class name="com.suiteMarchRelease.TestSuiteBase"></class>
+		</classes>
+	</test>
+	<test name="EI3121">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3121"></class>
+		</classes>
+	</test>
+	<test name="EI2926">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2926"></class>
+		</classes>
+	</test>
+	<test name="EI2632">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2632"></class>
+		</classes>
+	</test>
+	<test name="EI1394">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI1394"></class>
+		</classes>
+	</test>
+	<test name="EI3026">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3026"></class>
+		</classes>
+	</test>
+	<test name="EI3012">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3012"></class>
+		</classes>
+	</test>
+	<test name="EI2850">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2850"></class>
+		</classes>
+	</test>
+	<test name="EI3113">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3113"></class>
+		</classes>
+	</test>
+	<test name="EI1292">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI1292"></class>
+		</classes>
+	</test>
+	<test name="EI2696">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2696"></class>
+		</classes>
+	</test>
+	<test name="EI3135">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3135"></class>
+		</classes>
+	</test>
+	<test name="EI3082">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3082"></class>
+		</classes>
+	</test>
+	<test name="RUB541">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_RUB541"></class>
+		</classes>
+	</test>
+	<test name="EI3023">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3023"></class>
+		</classes>
+	</test>
+	<test name="EI3192">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3192"></class>
+		</classes>
+	</test>
+	<test name="EI3025">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3025"></class>
+		</classes>
+	</test>
+	<test name="EI2979">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2979"></class>
+		</classes>
+	</test>
+	
+	
+	<test name="EI3242">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3242"></class>
+		</classes>
+	</test>
+	<test name="EI3194">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3194"></class>
+		</classes>
+	</test>
+	<test name="EI2912">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2912"></class>
+		</classes>
+	</test>
+	<test name="EI3243">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3243"></class>
+		</classes>
+	</test>
+	<test name="EI3240">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3240"></class>
+		</classes>
+	</test>
+	<test name="EI3112">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3112"></class>
+		</classes>
+	</test>
+	<test name="EI2214">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2214"></class>
+		</classes>
+	</test>
+	<test name="EI3011">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3011"></class>
+		</classes>
+	</test>
+	<test name="EI2866">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2866"></class>
+		</classes>
+	</test>
+	<test name="EI3120">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3120"></class>
+		</classes>
+	</test>
+	<test name="EI2216">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2216"></class>
+		</classes>
+	</test>
+	<test name="EI2541">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2541"></class>
+		</classes>
+	</test>
+	<test name="EI3241">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI3241"></class>
+		</classes>
+	</test>
+	<test name="EI2851">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2851"></class>
+		</classes>
+	</test>
+	<test name="EI2432">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2432"></class>
+		</classes>
+	</test>
+	<test name="EI2830">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2830"></class>
+		</classes>
+	</test>
+	<test name="RUB661">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_RUB661"></class>
+		</classes>
+	</test>
+	<test name="EI2596">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2596"></class>
+		</classes>
+	</test>
+	<test name="EI2219">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2219"></class>
+		</classes>
+	</test>
+	<test name="EI2760">
+		<classes>
+
+			<class name="com.suiteMarchRelease.TestCase_EI2760"></class>
+		</classes>
+	</test>
+</suite>
+

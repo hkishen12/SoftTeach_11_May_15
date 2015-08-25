@@ -1,0 +1,424 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Questions]">
+  <test name="Verify CreateQSLinks Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_CreateQSLinks">
+        <methods>
+          <include name="verifyCreateQSLinkTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_CreateQSLinks -->
+    </classes>
+  </test> <!-- Verify CreateQSLinks Test Case(failed) -->
+  <test name="Verify DefaultQSbyFolder Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_DefaultQSbyFolder">
+        <methods>
+          <include name="verifydefaultQSbyFolderLinkTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_DefaultQSbyFolder -->
+    </classes>
+  </test> <!-- Verify DefaultQSbyFolder Test Case(failed) -->
+  <test name="Verify CreateFolder Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.TestCase_CreateFolder">
+        <methods>
+          <include name="verifyCreateQSFolderTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_CreateFolder -->
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+    </classes>
+  </test> <!-- Verify CreateFolder Test Case(failed) -->
+  <test name="Verify Create New Category Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_CreateNewCategory">
+        <methods>
+          <include name="verifyCreateCategoryTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_CreateNewCategory -->
+    </classes>
+  </test> <!-- Verify Create New Category Test Case(failed) -->
+  <test name="Verify Create MC Questions Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_CreateMCQuestions">
+        <methods>
+          <include name="verifyCreateMCQuestionsTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_CreateMCQuestions -->
+    </classes>
+  </test> <!-- Verify Create MC Questions Test Case(failed) -->
+  <test name="Verify Create TrueFalse Questions Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_CreateTFQuestions">
+        <methods>
+          <include name="verifyCreateTFQuestionsTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_CreateTFQuestions -->
+    </classes>
+  </test> <!-- Verify Create TrueFalse Questions Test Case(failed) -->
+  <test name="Verify Create Essay Questions Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_CreateEassyQuestions">
+        <methods>
+          <include name="verifyCreateEssayQuestionsTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_CreateEassyQuestions -->
+    </classes>
+  </test> <!-- Verify Create Essay Questions Test Case(failed) -->
+  <test name="Verify Create FITB Questions Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_CreateFITBQuestions">
+        <methods>
+          <include name="verifyCreateFITBQuestionsTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_CreateFITBQuestions -->
+    </classes>
+  </test> <!-- Verify Create FITB Questions Test Case(failed) -->
+  <test name="Verify SelectCategoryFolder Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_SelectCategoryFolder">
+        <methods>
+          <include name="verifySelectCategoryFolder"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_SelectCategoryFolder -->
+    </classes>
+  </test> <!-- Verify SelectCategoryFolder Test Case(failed) -->
+  <test name="Verify Search By Id Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.TestCase_SearchQuestionsById">
+        <methods>
+          <include name="verifySearchQuestionsByIdTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_SearchQuestionsById -->
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+    </classes>
+  </test> <!-- Verify Search By Id Test Case(failed) -->
+  <test name="Verify Search By Name Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.TestCase_SearchQuestionsByName">
+        <methods>
+          <include name="verifySearchQuestionsByNameTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_SearchQuestionsByName -->
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+    </classes>
+  </test> <!-- Verify Search By Name Test Case(failed) -->
+  <test name="Verify SelectAnyFolder Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_SelectAnyFolder">
+        <methods>
+          <include name="verifySelectionOfQSFolderTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_SelectAnyFolder -->
+    </classes>
+  </test> <!-- Verify SelectAnyFolder Test Case(failed) -->
+  <test name="Verify Bulk Approve Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_CreateBulkApproveQuestions">
+        <methods>
+          <include name="verifyCreateBulkApproveQuestionsTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_CreateBulkApproveQuestions -->
+    </classes>
+  </test> <!-- Verify Bulk Approve Test Case(failed) -->
+  <test name="Verify Delete Questions in Folder Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_DeleteQSInFolder">
+        <methods>
+          <include name="verifyDeleteQSInFolderTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_DeleteQSInFolder -->
+    </classes>
+  </test> <!-- Verify Delete Questions in Folder Test Case(failed) -->
+  <test name="Verify Import RTF format Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.TestCase_ImportQuestionsRFTFormat">
+        <methods>
+          <include name="verifyImportQuestionsRFTFormatTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_ImportQuestionsRFTFormat -->
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+    </classes>
+  </test> <!-- Verify Import RTF format Test Case(failed) -->
+  <test name="Verify Import Tab Seperated format Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_ImportQuestionsTabSeperated">
+        <methods>
+          <include name="verifyImportQuestionsTabSeperatedTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_ImportQuestionsTabSeperated -->
+    </classes>
+  </test> <!-- Verify Import Tab Seperated format Test Case(failed) -->
+  <test name="Verify Question used by Exam should not be deleted(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_DeleteQSUsedByExam">
+        <methods>
+          <include name="verifyDeleteQSUsedByExam"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_DeleteQSUsedByExam -->
+    </classes>
+  </test> <!-- Verify Question used by Exam should not be deleted(failed) -->
+  <test name="Verify Share Folder Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_ShareFolder">
+        <methods>
+          <include name="verifyShareFolderTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_ShareFolder -->
+    </classes>
+  </test> <!-- Verify Share Folder Test Case(failed) -->
+  <test name="Verify QSbyCategories Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.TestCase_QSbyCategories">
+        <methods>
+          <include name="verifyQSbyCategories"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_QSbyCategories -->
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+    </classes>
+  </test> <!-- Verify QSbyCategories Test Case(failed) -->
+  <test name="Verify EditFolder Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_EditFolder">
+        <methods>
+          <include name="verifyEditQSFolderTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_EditFolder -->
+    </classes>
+  </test> <!-- Verify EditFolder Test Case(failed) -->
+  <test name="Verify DeleteFolder Test Case(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_DeleteFolder">
+        <methods>
+          <include name="verifyDeleteQSFolderTest"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_DeleteFolder -->
+    </classes>
+  </test> <!-- Verify DeleteFolder Test Case(failed) -->
+  <test name="Verify Question&#039;s page breadcrum and heading(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_BreadcrumAndHeading">
+        <methods>
+          <include name="verifyBreadcrumAndHeading"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_BreadcrumAndHeading -->
+    </classes>
+  </test> <!-- Verify Question's page breadcrum and heading(failed) -->
+  <test name="Check search and reset option under side bar grids(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_FolderAndCategorySearch">
+        <methods>
+          <include name="verifyFolderAndCategorySearch"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_FolderAndCategorySearch -->
+    </classes>
+  </test> <!-- Check search and reset option under side bar grids(failed) -->
+  <test name="Check Folder question count on LHS and RHS grids(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_FolderQuestionCount_LHS_RHS_Grid">
+        <methods>
+          <include name="verifyFolderQuestionCount_LHS_RHS_Grid"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_FolderQuestionCount_LHS_RHS_Grid -->
+    </classes>
+  </test> <!-- Check Folder question count on LHS and RHS grids(failed) -->
+  <test name="Verify &#039;Community&#039; and &#039;Help Guide&#039; links are appearing and their corressponding popups are opening or not.(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_Community_HelpGuide_Links">
+        <methods>
+          <include name="verifyCommunity_HelpGuide_Links"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_Community_HelpGuide_Links -->
+    </classes>
+  </test> <!-- Verify 'Community' and 'Help Guide' links are appearing and their corressponding popups are opening or not.(failed) -->
+  <test name="Verify user is able to export grid results to excel and CSV files.(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_ExportResults_Excel_CSV">
+        <methods>
+          <include name="verifyExportResults_Excel_CSV"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_ExportResults_Excel_CSV -->
+    </classes>
+  </test> <!-- Verify user is able to export grid results to excel and CSV files.(failed) -->
+  <test name="Verify whether Expand/Shrink Results link is working properly.(failed)">
+    <classes>
+      <class name="com.suiteQuestions.TestCase_ExpandShrinkResultsLink">
+        <methods>
+          <include name="verifyExpandShrinkResultsLink"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_ExpandShrinkResultsLink -->
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+    </classes>
+  </test> <!-- Verify whether Expand/Shrink Results link is working properly.(failed) -->
+  <test name="Check user is able to duplicate bulk selected questions to a particular folder.(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_BulkDuplicate">
+        <methods>
+          <include name="verifyBulkDuplicate"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_BulkDuplicate -->
+    </classes>
+  </test> <!-- Check user is able to duplicate bulk selected questions to a particular folder.(failed) -->
+  <test name="Check user is able to move questions to another folder for bulk selected questions from question listing grid.(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_BulkMoveToAnotherFolder">
+        <methods>
+          <include name="verifyBulkMoveToAnotherFolder"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_BulkMoveToAnotherFolder -->
+    </classes>
+  </test> <!-- Check user is able to move questions to another folder for bulk selected questions from question listing grid.(failed) -->
+  <test name="Check user is able to remove bulk selected questions which are not used in any assignments from question listing grid.(failed)">
+    <classes>
+      <class name="com.suiteQuestions.QuestionSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.QuestionSuiteBase -->
+      <class name="com.suiteQuestions.TestCase_BulkRemoveItems">
+        <methods>
+          <include name="verifyBulkMoveToAnotherFolder"/>
+        </methods>
+      </class> <!-- com.suiteQuestions.TestCase_BulkRemoveItems -->
+    </classes>
+  </test> <!-- Check user is able to remove bulk selected questions which are not used in any assignments from question listing grid.(failed) -->
+</suite> <!-- Failed suite [Questions] -->

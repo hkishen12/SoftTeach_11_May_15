@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Rubrics Test Cases]">
+  <test name="Create New Rubrics Folder(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_CreateNewRubricsFolder">
+        <methods>
+          <include name="VerifyCreateNewRubricsFolder"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_CreateNewRubricsFolder -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Create New Rubrics Folder(failed) -->
+  <test name="Create Points Based Rubric(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_CreatePointBasedRubric">
+        <methods>
+          <include name="VerifyCreatePointBasedRubric"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_CreatePointBasedRubric -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Create Points Based Rubric(failed) -->
+  <test name="Create Scale Based Rubric(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_CreateScaleBasedRubric">
+        <methods>
+          <include name="VerifyCreateScaleBasedRubric"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_CreateScaleBasedRubric -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Create Scale Based Rubric(failed) -->
+  <test name="Save As Rubric Template(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_SaveAsRubricTemplate">
+        <methods>
+          <include name="VerifySaveAsRubricTemplate"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_SaveAsRubricTemplate -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Save As Rubric Template(failed) -->
+  <test name="Save Rubric As A Template(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_SaveTemplateAsRubric">
+        <methods>
+          <include name="VerifySaveTemplateAsRubric"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_SaveTemplateAsRubric -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Save Rubric As A Template(failed) -->
+  <test name="Add Rubric Dimension and Level(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_AddDimensionAndLevel">
+        <methods>
+          <include name="VerifyAddDimensionAndLevel"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_AddDimensionAndLevel -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Add Rubric Dimension and Level(failed) -->
+  <test name="Delete Rubric Dimension and Level(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_DeleteDimensionAndLevel">
+        <methods>
+          <include name="VerifyDeleteDimensionAndLevel"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_DeleteDimensionAndLevel -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Delete Rubric Dimension and Level(failed) -->
+  <test name="Edit Rubric(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+      <class name="com.suiteRubrics.TestCase_EditRubric">
+        <methods>
+          <include name="VerifyEditRubric"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_EditRubric -->
+    </classes>
+  </test> <!-- Edit Rubric(failed) -->
+  <test name="Delete A Rubric(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_DeleteRubric">
+        <methods>
+          <include name="VerifyDeleteRubric"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_DeleteRubric -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Delete A Rubric(failed) -->
+  <test name="Share Rubric Folder(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_ShareRubricsFolder">
+        <methods>
+          <include name="verifyShareRubricsFolderTest"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_ShareRubricsFolder -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Share Rubric Folder(failed) -->
+  <test name="Edit Rubric Folder(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_EditRubricsFolder">
+        <methods>
+          <include name="VerifyEditRubricsFolder"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_EditRubricsFolder -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Edit Rubric Folder(failed) -->
+  <test name="Delete Rubric Folder(failed)">
+    <classes>
+      <class name="com.suiteRubrics.TestCase_DeleteRubricFolder">
+        <methods>
+          <include name="VerifyDeleteRubricFolder"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestCase_DeleteRubricFolder -->
+      <class name="com.suiteRubrics.TestSuiteBase">
+        <methods>
+          <include name="checkSuiteSkip"/>
+        </methods>
+      </class> <!-- com.suiteRubrics.TestSuiteBase -->
+    </classes>
+  </test> <!-- Delete Rubric Folder(failed) -->
+</suite> <!-- Failed suite [Rubrics Test Cases] -->

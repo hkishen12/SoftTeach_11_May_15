@@ -1,0 +1,58 @@
+19/08/2015 15:58:56 ExamLogger: Initialized log file successfully!!
+19/08/2015 15:58:56 ExamLogger: Initialized log4j in system properly!!
+19/08/2015 15:58:56 ExamLogger: Loading Property files
+19/08/2015 15:58:56 ExamLogger: Loaded Property Files successfully
+19/08/2015 15:58:56 ExamLogger: Loading Excel files
+19/08/2015 15:58:57 ExamLogger: Loaded Excel Suite Files successfully
+19/08/2015 15:58:57 ExamLogger: Checking Runmode of suite 'LoginSuite'
+19/08/2015 15:58:57 ExamLogger: Runmode of 'LoginSuite' is true
+19/08/2015 15:58:57 ExamLogger: Checking Runmode of TestCase_ETLostUserIDPassword
+19/08/2015 15:58:57 ExamLogger: Runmode of 'TestCase_ETLostUserIDPassword' is false
+19/08/2015 15:58:57 ExamLogger: Skipped 'TestCase_ETLostUserIDPassword' as the runmode was set to NO
+19/08/2015 15:58:57 ExamLogger: Checking Runmode of TestCase_Login
+19/08/2015 15:58:57 ExamLogger: Runmode of 'TestCase_Login' is true
+19/08/2015 15:59:08 ExamLogger: Selecting the Browser
+19/08/2015 15:59:24 ExamLogger: Checking Runmode of suite 'CommonSuite'
+19/08/2015 15:59:24 ExamLogger: Runmode of 'CommonSuite' is false
+19/08/2015 15:59:24 ExamLogger: Skipped 'CommonSuite ' as the runmode was set to NO
+19/08/2015 15:59:24 ExamLogger: Checking Runmode of suite 'QuestionsSuite'
+19/08/2015 15:59:24 ExamLogger: Runmode of 'QuestionsSuite' is false
+19/08/2015 15:59:24 ExamLogger: Skipped 'QuestionsSuite ' as the runmode was set to NO
+19/08/2015 15:59:25 ExamLogger: Checking Runmode of suite 'RubricsSuite'
+19/08/2015 15:59:25 ExamLogger: Runmode of 'RubricsSuite' is false
+19/08/2015 15:59:25 ExamLogger: Skipped 'RubricsSuite ' as the runmode was set to NO
+19/08/2015 15:59:25 ExamLogger: Checking Runmode of suite 'AssessmentsSuite'
+19/08/2015 15:59:25 ExamLogger: Runmode of 'AssessmentsSuite' is false
+19/08/2015 15:59:25 ExamLogger: Skipped 'AssessmentsSuite ' as the runmode was set to NO
+19/08/2015 15:59:25 ExamLogger: Checking Runmode of suite 'CategoriesSuite'
+19/08/2015 15:59:25 ExamLogger: Runmode of 'CategoriesSuite' is false
+19/08/2015 15:59:25 ExamLogger: Skipped 'CategoriesSuite ' as the runmode was set to NO
+19/08/2015 15:59:25 ExamLogger: Checking Runmode of suite 'UsersSuite'
+19/08/2015 15:59:25 ExamLogger: Runmode of 'UsersSuite' is false
+19/08/2015 15:59:25 ExamLogger: Skipped 'UsersSuite ' as the runmode was set to NO
+19/08/2015 15:59:25 ExamLogger: Checking Runmode of suite 'CoursesSuite'
+19/08/2015 15:59:25 ExamLogger: Runmode of 'CoursesSuite' is false
+19/08/2015 15:59:25 ExamLogger: Skipped 'CoursesSuite ' as the runmode was set to NO
+19/08/2015 15:59:25 ExamLogger: Checking Runmode of suite 'ExamTakerSuite'
+19/08/2015 15:59:25 ExamLogger: Runmode of 'ExamTakerSuite' is false
+19/08/2015 15:59:25 ExamLogger: Skipped 'ExamTakerSuite ' as the runmode was set to NO
+19/08/2015 15:59:25 ExamLogger: Checking Runmode of suite 'ReportsSuite'
+19/08/2015 15:59:25 ExamLogger: Runmode of 'ReportsSuite' is false
+19/08/2015 15:59:25 ExamLogger: Skipped 'ReportsSuite ' as the runmode was set to NO
+19/08/2015 15:59:25 ExamLogger: Checking Runmode of suite 'PageCheckSuite'
+19/08/2015 15:59:25 ExamLogger: Runmode of 'PageCheckSuite' is true
+19/08/2015 15:59:25 ExamLogger: Checking Runmode of TestCase_PageCheckCategoryReports
+19/08/2015 15:59:25 ExamLogger: Runmode of 'TestCase_PageCheckCategoryReports' is true
+19/08/2015 16:00:26 ExamLogger: Checking Runmode of TestCase_PageCheckETReports
+19/08/2015 16:00:26 ExamLogger: Runmode of 'TestCase_PageCheckETReports' is true
+19/08/2015 16:01:24 ExamLogger: Checking Runmode of TestCase_PageCheckReleaseResult
+19/08/2015 16:01:24 ExamLogger: Runmode of 'TestCase_PageCheckReleaseResult' is true
+19/08/2015 16:02:16 ExamLogger: Checking Runmode of TestCase_PageCheckSandOReport
+19/08/2015 16:02:16 ExamLogger: Runmode of 'TestCase_PageCheckSandOReport' is true
+19/08/2015 16:03:11 ExamLogger: Checking Runmode of TestCase_PageCheckSummaryReport
+19/08/2015 16:03:11 ExamLogger: Runmode of 'TestCase_PageCheckSummaryReport' is true
+19/08/2015 16:04:15 ExamLogger: Checking Runmode of suite 'LogoutSuite'
+19/08/2015 16:04:15 ExamLogger: Runmode of 'LogoutSuite' is true
+19/08/2015 16:04:15 ExamLogger: Checking Runmode of TestCase_Logout
+19/08/2015 16:04:15 ExamLogger: Runmode of 'TestCase_Logout' is true
+19/08/2015 16:04:36 ExamLogger: ==================== successfully logout  ====================

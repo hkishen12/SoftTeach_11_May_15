@@ -1,0 +1,73 @@
+
+<suite name="Common Test Cases">
+
+	<test name="Check Runmode of Suite">
+		<classes>
+
+			<class name="com.SuiteCommon.TestSuiteBase"></class>
+		</classes>
+	</test>
+	<test name="Check Questions Tab">
+		<classes>
+
+			<class name="com.SuiteCommon.TestCase_CheckQuestions"></class>
+		</classes>
+	</test>
+	<test name="Check Rubrics Tab">
+		<classes>
+
+			<class name="com.SuiteCommon.TestCase_CheckRubrics"></class>
+		</classes>
+	</test>
+	<test name="Check Assessments Tab">
+		<classes>
+
+			<class name="com.SuiteCommon.TestCase_CheckAssessments"></class>
+		</classes>
+	</test>
+	<test name="Check Categories Tab">
+		<classes>
+
+			<class name="com.SuiteCommon.TestCase_CheckCategories"></class>
+		</classes>
+	</test>
+	<test name="Check Reports Tab">
+		<classes>
+
+			<class name="com.SuiteCommon.TestCase_CheckReports"></class>
+		</classes>
+	</test>
+	<test name="Check Exam Takers Tab">
+		<classes>
+
+			<class name="com.SuiteCommon.TestCase_CheckExamTakers"></class>
+		</classes>
+	</test>
+	<test name="Check Admin Tab">
+		<classes>
+
+			<class name="com.SuiteCommon.TestCase_CheckAdmin"></class>
+		</classes>
+	</test>
+
+
+	<test name="Check Check Community link">
+		<classes>
+
+			<class name="com.SuiteCommon.TestCase_CheckCommunity"></class>
+		</classes>
+	</test>
+
+
+	<test name="Check Training Video">
+		<classes>
+			<class name="com.SuiteCommon.TestSuiteBase"></class>
+			<class name="com.SuiteCommon.TestCase_CheckTrainingVideo"></class>
+		</classes>
+	</test>
+
+
+
+</suite>
+
+

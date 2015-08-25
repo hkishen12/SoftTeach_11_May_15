@@ -1,0 +1,9 @@
+Clean up Instruction. 
+
+When we are running the whole suite , we should do following cleanup activity to make the execution smooth. 
+This will not be required once cleanup scripot is ready to be executed. 
+
+1) From Questions tab delete A folder. ( if present) 
+2) From Questions tab delete AutomationEdit and AutomationDelete folder ( if present) 
+3) Delete the category called "Automation". 
+4) Search for assessment "Assessment_create" and delete the same. 

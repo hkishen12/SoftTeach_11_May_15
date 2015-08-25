@@ -1,0 +1,95 @@
+<suite name="Rubrics Test Cases" >
+
+<test name="Check Runmode of Suite">
+    <classes>
+      <class name="com.suiteRubrics.TestSuiteBase"></class> 
+    </classes>
+</test>
+
+<test name="Create New Rubrics Folder">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_CreateNewRubricsFolder"></class>
+    </classes>
+</test>
+
+<test name="Create Points Based Rubric">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_CreatePointBasedRubric"></class>
+    </classes>
+</test>
+
+<test name="Create Scale Based Rubric">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_CreateScaleBasedRubric"></class>
+    </classes>
+</test>
+
+<test name="Save As Rubric Template">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_SaveAsRubricTemplate"></class>
+    </classes>
+</test>
+
+<test name="Save Rubric As A Template">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_SaveTemplateAsRubric"></class>
+    </classes>
+</test>
+
+<test name="Add Rubric Dimension and Level">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_AddDimensionAndLevel"></class>
+    </classes>
+</test>
+
+<test name="Delete Rubric Dimension and Level">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_DeleteDimensionAndLevel"></class>
+    </classes>
+</test>
+
+<test name="Edit Rubric">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_EditRubric"></class>
+    </classes>
+</test>
+
+<test name="Delete A Rubric">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_DeleteRubric"></class>
+    </classes>
+</test>
+
+<test name="Share Rubric Folder">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_ShareRubricsFolder"></class>
+    </classes>
+</test>
+
+<test name="Edit Rubric Folder">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_EditRubricsFolder"></class>
+    </classes>
+</test>
+
+<test name="Delete Rubric Folder">
+   <classes>
+     
+         <class name="com.suiteRubrics.TestCase_DeleteRubricFolder"></class>
+    </classes>
+</test>
+
+
+</suite>
+

@@ -1,0 +1,3 @@
+Folders 	Descrip 	Q Type 	Question Text	M/C Choice A	M/C Choice B	M/C Choice C	M/C Choice D	M/C Choice E	F	G	H	I	J	Answer Key	Partial Credit	Comments/ FeedBack	Category 	Item Groups	Randomize Choices	Status
+	Alexander	MC	Alexander Hamilton’s economic program was designed primarily to:						 											DRAFT
+	Development	MC	The development of the early nineteenth-century concept of “separate spheres” for the sexes encouraged all of the following:						 											DRAFT
